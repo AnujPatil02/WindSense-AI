@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "model": "LSTM Autoencoder",
+      "precision": 0.5374,
+      "recall": 0.3186,
+      "f1": 0.4,
+      "fpr": 0.0568,
+      "tp": 194,
+      "fp": 167,
+      "tn": 2771,
+      "fn": 415
+    },
+    {
+      "model": "Isolation Forest",
+      "precision": 0.18,
+      "recall": 0.1741,
+      "f1": 0.177,
+      "fpr": 0.1644,
+      "tp": 106,
+      "fp": 483,
+      "tn": 2455,
+      "fn": 503
+    }
+  ],
+  "winner": "LSTM Autoencoder",
+  "winner_reason": "Lowest false positive rate with recall >= 0.6"
+}

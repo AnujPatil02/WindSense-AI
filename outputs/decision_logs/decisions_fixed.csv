@@ -1,0 +1,67 @@
+turbine_id,timestamp,anomaly_flag,anomaly_score,rul_hours,rul_lower_bound,priority,action,scheduled_start,scheduled_end,wind_speed_window,duration_hours,recommended_load_pct,primary_cause,reasoning,chosen_by,conflict_reasoning,revenue_loss_usd,net_saving_usd,lost_generation_kwh,roi_justified,assigned_crew,required_skill,load_setpoint,llm_explanation,work_order_path,health_score
+WT-001,2026-06-09T08:26:06.974041,1,0.1336,92.7,0,CRITICAL,IMMEDIATE_SHUTDOWN_AND_REPAIR,2026-06-09T10:26:06.974041,2026-06-09T22:26:06.974041,,12,0,sensor_20,WT-001: Anomaly=YES (score=0.134). RUL estimate=92.7h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-09T10:26:06.974041 — 2026-06-09T22:26:06.974041. Recommended load: 0% of rated power.,rule_based,Rule-based took more conservative action,373.99,44626.01,4986.6,True,CREW_A,gearbox,"{'turbine_id': 'WT-001', 'power_setpoint_kw': 0.0, 'load_pct': 0, 'current_power_kw': 1012.6, 'power_reduction_kw': 1012.6, 'rpm_setpoint': 0.0, 'pitch_angle_deg': 90.0, 'command': 'EMERGENCY_STOP_AND_FEATHER', 'revenue_loss_per_h': 75.94}","TuBine: WT-001
+AnomaLy Detected: YES (score: 0.1336)
+Primary Fault SenSor: sensor_20
+RULE Estimate: 92.7h (90% CI: 0.0h - 125.0h)
+PRIORITY: CRITICAL
+ACTION: SCHEDULE_WITHIN_48H
+SCHEDULED: 2026-06-09T10:26:06 to 2026-06-09T22:26:06
+CREW: CREW_A
+LOAD: 0% of RATED POWER
+REVENUE LOSS: $373.99
+NET SAVING: $446,260.11
+
+NOTE: The report is generated using data from a real-life wind turbine maintenance report.",outputs\work_orders\WO_WT-001_20260609_082633.pdf,0.37
+WT-002,2026-06-09T08:26:11.169094,1,0.0498,84.5,0,HIGH,SCHEDULE_WITHIN_48H,2026-06-09T10:56:11.169094,2026-06-09T22:56:11.169094,,12,0,sensor_20,WT-002: Anomaly=YES (score=0.050). RUL estimate=84.5h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-09T10:56:11.169094 — 2026-06-09T22:56:11.169094. Recommended load: 0% of rated power.,rule_based,Rule-based took more conservative action,373.99,44626.01,4986.6,True,CREW_B,gearbox,"{'turbine_id': 'WT-002', 'power_setpoint_kw': 0.0, 'load_pct': 0, 'current_power_kw': 906.6, 'power_reduction_kw': 906.6, 'rpm_setpoint': 0.0, 'pitch_angle_deg': 90.0, 'command': 'EMERGENCY_STOP_AND_FEATHER', 'revenue_loss_per_h': 67.99}","TuBine: WT-002
+Anoma ly Detected: YES (score: 0.0498)
+Primary Fault Senso r: sensor_20
+RUL Estimate: 84.5h (90% CI: 0.0h - 125.0h)
+Priority: HIGH
+Action: SCHEDULE_WITHIN_48H
+Scheduled: 2026-06-09T10:56:11 to 2026-06-09T22:56:11
+Crew: CREW_B
+Load: 0% of rated power
+Revenue Losses: $373.99
+Net Savings: $446,260.11
+
+The TuBine industrial maintenance report generator has detected anomaly in sensor_20, with a RUL estimate of 84.5h (90% CI: 0.0h - 125.0h). The priority for this issue is HIGH, and the scheduled time for SCHEDULE_WITHIN_48H has been set. The crew on board CR EW_B will be responsible for managing the financial impact of this issue.",outputs\work_orders\WO_WT-002_20260609_082642.pdf,0.61
+WT-003,2026-06-09T08:26:11.200701,1,0.0791,88.0,0,MEDIUM,SCHEDULE_WITHIN_7_DAYS,2026-06-09T09:26:11.200701,2026-06-09T21:26:11.200701,,12,0,sensor_2,WT-003: Anomaly=YES (score=0.079). RUL estimate=88.0h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-09T09:26:11.200701 — 2026-06-09T21:26:11.200701. Recommended load: 0% of rated power.,rule_based,Rule-based took more conservative action,373.99,44626.01,4986.6,True,CREW_C,gearbox,"{'turbine_id': 'WT-003', 'power_setpoint_kw': 0.0, 'load_pct': 0, 'current_power_kw': 656.1, 'power_reduction_kw': 656.1, 'rpm_setpoint': 0.0, 'pitch_angle_deg': 90.0, 'command': 'EMERGENCY_STOP_AND_FEATHER', 'revenue_loss_per_h': 49.21}","TuBine: WT-003
+AnomaLy Detected: YES (score: 0.0791)
+Primary Fault SenSor: sensor_2
+RULE Estimate: 88.0h (90% CI: 0.0h - 125.0h)
+PRIORITY: MEDIUM
+ACTION: SCHEDULE_WITHIN_48H
+SCHEDULED: 2026-06-09T09:26:11 to 2026-06-09T21:26:11
+CREW: CREW_C
+LOAD: 0% of rated power
+REVENUE LOSS: $373.99
+NET SAVINGS: $446,26.01
+
+Explanation:
+- ""TuBine"" is the name of the wind turbine in question, and ""WT-003"" is its serial number.
+- The data shows that the sensor detected anomalous behavior, with a RULE estimate of 88 hours (90% CI: 0.0 to 125.0 hours) for the next scheduled schedule.
+- The priority level is HIGH, indicating that the situation requires immediate attention and resolution",outputs\work_orders\WO_WT-003_20260609_082652.pdf,0.72
+WT-004,2026-06-09T08:26:11.219381,0,0.2726,88.9,0,LOW,MONITOR_AND_LOG,2026-06-09T10:26:11.219381,2026-06-09T22:26:11.219381,,12,0,sensor_20,WT-004: Anomaly=YES (score=0.273). RUL estimate=88.9h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-09T10:26:11.219381 — 2026-06-09T22:26:11.219381. Recommended load: 0% of rated power.,rule_based,Rule-based took more conservative action,373.99,44626.01,4986.6,True,CREW_A,gearbox,"{'turbine_id': 'WT-004', 'power_setpoint_kw': 0.0, 'load_pct': 0, 'current_power_kw': 972.4, 'power_reduction_kw': 972.4, 'rpm_setpoint': 0.0, 'pitch_angle_deg': 90.0, 'command': 'EMERGENCY_STOP_AND_FEATHER', 'revenue_loss_per_h': 72.93}","TuBine: WT-004
+AnomaLy Detected: YES (score: 0.2726)
+Primary Fault SenSor: sensor_20
+RULE Estimate: 88.9h (90% CI: 0.0h - 125.0h)
+PRIORITY: LOW
+ACTION: SCHEDULE_WIThin_WITHIN_48H
+SCHEDULED: 2026-06-09T10:26:11 to 2026-06-09T22:26:11
+CREW: CREW_A
+LOAD: 0% of RATED POWER
+REVENUE LOSS: $373.99
+NET SAVINGS: $446,26.01",outputs\work_orders\WO_WT-004_20260609_082659.pdf,0.89
+WT-005,2026-06-09T08:26:11.246389,0,0.0969,83.3,0,LOW,MONITOR_AND_LOG,2026-06-09T11:26:11.246389,2026-06-09T23:26:11.246389,,12,0,sensor_17,WT-005: Anomaly=YES (score=0.097). RUL estimate=83.3h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-09T11:26:11.246389 — 2026-06-09T23:26:11.246389. Recommended load: 0% of rated power.,rule_based,Rule-based took more conservative action,373.99,44626.01,4986.6,True,CREW_A,gearbox,"{'turbine_id': 'WT-005', 'power_setpoint_kw': 0.0, 'load_pct': 0, 'current_power_kw': 1215.9, 'power_reduction_kw': 1215.9, 'rpm_setpoint': 0.0, 'pitch_angle_deg': 90.0, 'command': 'EMERGENCY_STOP_AND_FEATHER', 'revenue_loss_per_h': 91.19}","TuBine: WT-005
+AnomaLy Detected: YES (score: 0.0969)
+Primary Fault SenSor: sensor_17
+RULE Estimate: 83.3h (90% CI: 0.0h - 125.0h)
+PRIORITY: LOW
+ACTION: SCHEDULE_WITHIN_48H
+SCHEDULED: 2026-06-09T11:26:11 to 2026-06-09T23:26:11
+CREW: CREW_A
+LOAD: 0% of RATED POWER
+REVENUE LOSS: $373.99
+NET SAVINGS: $446,26.01
+
+The TuBine industrial maintenance report generator for wind turbine WT-005 has detected anomalies in the sensor_17 primary fault senSor. The RUL estimate is 83.3 hours (90% CI: 0.0h - 125.0h), and the SCHEDULED time for SCRIPTED maintenance is set to 2026-06-09T11:26",outputs\work_orders\WO_WT-005_20260609_082709.pdf,0.96

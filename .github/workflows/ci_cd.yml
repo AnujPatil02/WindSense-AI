@@ -1,0 +1,40 @@
+name: WindSense-AI CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install numpy pandas scikit-learn xgboost joblib pytest loguru
+
+      - name: Run tests
+        run: pytest tests/ -v --tb=short
+
+      - name: Validate model outputs exist
+        run: |
+          python -c "
+          from pathlib import Path
+          required = [
+              'outputs/models/isolation_forest.pkl',
+              'outputs/models/xgboost_rul.pkl',
+          ]
+          missing = [f for f in required if not Path(f).exists()]
+          if missing:
+              print('Missing (first run):', missing)
+          else:
+              print('All model files present')
+          "

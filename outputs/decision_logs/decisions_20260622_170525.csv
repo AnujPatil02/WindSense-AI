@@ -1,0 +1,60 @@
+turbine_id,timestamp,anomaly_flag,anomaly_score,rul_hours,rul_lower_bound,priority,action,scheduled_start,scheduled_end,wind_speed_window,duration_hours,recommended_load_pct,primary_cause,reasoning,chosen_by,conflict_reasoning,revenue_loss_usd,net_saving_usd,lost_generation_kwh,roi_justified,assigned_crew,required_skill,load_setpoint,llm_explanation,work_order_path
+WT-001,2026-06-22T17:05:41.810279,1,0.112,90.1,0.0,HIGH,SCHEDULE_WITHIN_48H,2026-06-22T19:05:41.810279,2026-06-23T07:05:41.810279,,12.0,0,sensor_17,WT-001: Anomaly=YES (score=0.112). RUL estimate=90.1h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-22T19:05:41.810279 — 2026-06-23T07:05:41.810279. Recommended load: 0% of rated power.,rule_based,Rule-based took more conservative action,373.99,44626.01,4986.6,True,CREW_A,gearbox,"{'turbine_id': 'WT-001', 'power_setpoint_kw': 0.0, 'load_pct': 0, 'current_power_kw': 1534.6, 'power_reduction_kw': 1534.6, 'rpm_setpoint': 0.0, 'pitch_angle_deg': 90.0, 'command': 'EMERGENCY_STOP_AND_FEATHER', 'revenue_loss_per_h': 115.09}","TuBine: WT-001
+AnomaLy Detected: YES (score: 0.112)
+Primary Fault SenSor: sensor_17
+RULE Estimate: 90.1h (90% CI: 0.0h - 125.0h)
+PRIORITY: HIGH
+ACTION: SCHEDULE_WITHIN_48H
+SCHEDULED: 2026-06-22T19:05:41 to 2026-06-23T07:05:41
+CREW: CRUEL_A
+LOAD: 0% of RATED POWER
+REVENUE LOSS: $373.99
+NET SAVING: $446,260.01",outputs\work_orders\WO_WT-001_20260622_170557.pdf
+WT-002,2026-06-22T17:05:42.765419,1,0.0907,96.4,0.1,HIGH,SCHEDULE_WITHIN_48H,2026-06-22T19:35:42.765419,2026-06-23T07:35:42.765419,,12.0,0,sensor_2,WT-002: Anomaly=YES (score=0.091). RUL estimate=96.4h (lower bound=0.1h). Priority=HIGH. Maintenance window: 2026-06-22T19:35:42.765419 — 2026-06-23T07:35:42.765419. Recommended load: 0% of rated power.,rule_based,Rule-based took more conservative action,373.99,44626.01,4986.6,True,CREW_B,gearbox,"{'turbine_id': 'WT-002', 'power_setpoint_kw': 0.0, 'load_pct': 0, 'current_power_kw': 1202.0, 'power_reduction_kw': 1202.0, 'rpm_setpoint': 0.0, 'pitch_angle_deg': 90.0, 'command': 'EMERGENCY_STOP_AND_FEATHER', 'revenue_loss_per_h': 90.15}","TuBine: WT-002
+AnomaLy Detected: YES (score: 0.0907)
+Primary Fault SenSor: sensor_2
+RULE Estimate: 96.4h (90% CI: 0.1h - 125.0h)
+PRIORITY: HIGH
+ACTION: SCHEDULE_WIThin_WITHIN_48H
+SCHEDULED: 2026-06-22T19:35:42 to 2026-06-23T07:35:42
+CREW: CREW_B
+LOAD: 0% of RATED POWER
+REVENUE LOSS: $373.99
+NET SAVINGS: $446,260.11
+
+NOTE: The data provided is for a specific wind turbine model WT-002 and its sensor_2. The report covers the detection of anomalies, RULE estimate, PRIORITY, ACTION, SCHEDULED, CREW, LOAD, REVENUE LOSS, and NET SAVINGS.",outputs\work_orders\WO_WT-002_20260622_170603.pdf
+WT-003,2026-06-22T17:05:42.769638,1,0.0827,94.5,0.0,HIGH,SCHEDULE_WITHIN_48H,2026-06-22T18:05:42.769638,2026-06-23T06:05:42.769638,,12.0,0,sensor_13,WT-003: Anomaly=YES (score=0.083). RUL estimate=94.5h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-22T18:05:42.769638 — 2026-06-23T06:05:42.769638. Recommended load: 0% of rated power.,rule_based,Rule-based took more conservative action,373.99,44626.01,4986.6,True,CREW_C,gearbox,"{'turbine_id': 'WT-003', 'power_setpoint_kw': 0.0, 'load_pct': 0, 'current_power_kw': 889.3, 'power_reduction_kw': 889.3, 'rpm_setpoint': 0.0, 'pitch_angle_deg': 90.0, 'command': 'EMERGENCY_STOP_AND_FEATHER', 'revenue_loss_per_h': 66.7}","TuBine: WT-003
+AnomaLy Detected: YES (score: 0.0827)
+Primary Fault SenSor: sensor_13
+RULE Estimate: 94.5h (90% CI: 0.0h - 125.0h)
+PRIORITY: HIGH
+ACTION: SCHEDULE_WITHIN_48H
+SCHEDULED: 2026-06-22T18:05:42 to 2026-06-23T06:05:42
+CREW: CRUEL_C
+LOAD: 0% of RATED POWER
+REVENUE LOSS: $373.99
+NET SAVINGS: $446,260.01
+
+The TuBine industrial maintenance report generator for wind turbine WT-003 has detected a anomaly in the sensor_13. The primary fault senSor is estimated to last for 94.5 hours (90% CI: 0.0h - 125.0h). The scheduled SCHEDULED is set for 2026-06-22T18:05:42 to",outputs\work_orders\WO_WT-003_20260622_170610.pdf
+WT-004,2026-06-22T17:05:42.775132,1,0.1565,84.1,0.0,HIGH,SCHEDULE_WITHIN_48H,2026-06-22T19:05:42.775132,2026-06-23T07:05:42.775132,,12.0,0,sensor_13,WT-004: Anomaly=YES (score=0.157). RUL estimate=84.1h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-22T19:05:42.775132 — 2026-06-23T07:05:42.775132. Recommended load: 0% of rated power.,rule_based,Rule-based took more conservative action,373.99,44626.01,4986.6,True,CREW_A,gearbox,"{'turbine_id': 'WT-004', 'power_setpoint_kw': 0.0, 'load_pct': 0, 'current_power_kw': 935.4, 'power_reduction_kw': 935.4, 'rpm_setpoint': 0.0, 'pitch_angle_deg': 90.0, 'command': 'EMERGENCY_STOP_AND_FEATHER', 'revenue_loss_per_h': 70.16}","TuBine: WT-004
+AnomaLy Detected: YES (score: 0.1565)
+PRiORity: HIGH
+Action: SCHEDULE_WIThIn_48H
+Scheduled: 2026-06-22T19:05:42 to 2026-06-23T07:05:42
+CREW: CRW_A
+Load: 0% of rated power
+REVENUE LOSSES: $373.99
+NET SAVINGS: $446,26.01",outputs\work_orders\WO_WT-004_20260622_170615.pdf
+WT-005,2026-06-22T17:05:42.785228,1,0.0814,88.5,0.0,HIGH,SCHEDULE_WITHIN_48H,2026-06-22T20:05:42.785228,2026-06-23T08:05:42.785228,,12.0,0,sensor_14,WT-005: Anomaly=YES (score=0.081). RUL estimate=88.5h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-22T20:05:42.785228 — 2026-06-23T08:05:42.785228. Recommended load: 0% of rated power.,rule_based,Rule-based took more conservative action,373.99,44626.01,4986.6,True,CREW_A,electrical,"{'turbine_id': 'WT-005', 'power_setpoint_kw': 0.0, 'load_pct': 0, 'current_power_kw': 1129.8, 'power_reduction_kw': 1129.8, 'rpm_setpoint': 0.0, 'pitch_angle_deg': 90.0, 'command': 'EMERGENCY_STOP_AND_FEATHER', 'revenue_loss_per_h': 84.74}","TuBine: WT-005
+AnomaLy Detected: YES (score: 0.0814)
+Primary Fault SenSor: sensor_14
+RULE Estimate: 88.5h (90% CI: 0.0h - 125.0h)
+PRIORITY: HIGH
+ACTION: SCHEDULE_WITHIN_48H
+SCHEDULED: 2026-06-22T20:05:42 to 2026-06-23T08:05:42
+CREW: CRUEL_A
+LOAD: 0% of rated power
+REVENUE LOSS: $373.99
+NET SAVINGS: $446,260.11
+
+NOTE: The report is based on data provided by the wind turbine manufacturer and may not reflect actual maintenance activities or outcomes.",outputs\work_orders\WO_WT-005_20260622_170620.pdf

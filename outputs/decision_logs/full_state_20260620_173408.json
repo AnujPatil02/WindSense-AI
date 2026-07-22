@@ -1,0 +1,468 @@
+{
+  "anomalies": [
+    {
+      "turbine_id": "WT-001",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0794,
+      "primary_cause": "sensor_13",
+      "top_sensors": [
+        {
+          "sensor": "sensor_13",
+          "error": 0.215792,
+          "contribution": 0.1942
+        },
+        {
+          "sensor": "sensor_7",
+          "error": 0.17732,
+          "contribution": 0.1596
+        },
+        {
+          "sensor": "sensor_17",
+          "error": 0.14058,
+          "contribution": 0.1265
+        }
+      ]
+    },
+    {
+      "turbine_id": "WT-002",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0647,
+      "primary_cause": "sensor_9",
+      "top_sensors": [
+        {
+          "sensor": "sensor_9",
+          "error": 0.181344,
+          "contribution": 0.2002
+        },
+        {
+          "sensor": "sensor_2",
+          "error": 0.099714,
+          "contribution": 0.1101
+        },
+        {
+          "sensor": "sensor_17",
+          "error": 0.097844,
+          "contribution": 0.108
+        }
+      ]
+    },
+    {
+      "turbine_id": "WT-003",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.1206,
+      "primary_cause": "sensor_20",
+      "top_sensors": [
+        {
+          "sensor": "sensor_20",
+          "error": 0.943762,
+          "contribution": 0.5588
+        },
+        {
+          "sensor": "sensor_12",
+          "error": 0.121464,
+          "contribution": 0.0719
+        },
+        {
+          "sensor": "sensor_15",
+          "error": 0.112326,
+          "contribution": 0.0665
+        }
+      ]
+    },
+    {
+      "turbine_id": "WT-004",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.1579,
+      "primary_cause": "sensor_8",
+      "top_sensors": [
+        {
+          "sensor": "sensor_8",
+          "error": 0.450886,
+          "contribution": 0.2039
+        },
+        {
+          "sensor": "sensor_9",
+          "error": 0.343134,
+          "contribution": 0.1552
+        },
+        {
+          "sensor": "sensor_11",
+          "error": 0.326322,
+          "contribution": 0.1476
+        }
+      ]
+    },
+    {
+      "turbine_id": "WT-005",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0752,
+      "primary_cause": "sensor_8",
+      "top_sensors": [
+        {
+          "sensor": "sensor_8",
+          "error": 0.19581,
+          "contribution": 0.1859
+        },
+        {
+          "sensor": "sensor_12",
+          "error": 0.134645,
+          "contribution": 0.1278
+        },
+        {
+          "sensor": "sensor_15",
+          "error": 0.104831,
+          "contribution": 0.0995
+        }
+      ]
+    }
+  ],
+  "rul_results": [
+    {
+      "turbine_id": "WT-001",
+      "rul_hours": 88.8,
+      "lower_hours": 0.0,
+      "upper_hours": 125.0,
+      "coverage": "90%"
+    },
+    {
+      "turbine_id": "WT-002",
+      "rul_hours": 78.2,
+      "lower_hours": 0.0,
+      "upper_hours": 125.0,
+      "coverage": "90%"
+    },
+    {
+      "turbine_id": "WT-003",
+      "rul_hours": 78.5,
+      "lower_hours": 0.0,
+      "upper_hours": 125.0,
+      "coverage": "90%"
+    },
+    {
+      "turbine_id": "WT-004",
+      "rul_hours": 92.3,
+      "lower_hours": 0.0,
+      "upper_hours": 125.0,
+      "coverage": "90%"
+    },
+    {
+      "turbine_id": "WT-005",
+      "rul_hours": 76.8,
+      "lower_hours": 0.0,
+      "upper_hours": 125.0,
+      "coverage": "90%"
+    }
+  ],
+  "decisions": [
+    {
+      "turbine_id": "WT-001",
+      "timestamp": "2026-06-20T17:34:36.534241",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0794,
+      "rul_hours": 88.8,
+      "rul_lower_bound": 0.0,
+      "priority": "HIGH",
+      "action": "SCHEDULE_WITHIN_48H",
+      "scheduled_start": "2026-06-20T19:34:36.534241",
+      "scheduled_end": "2026-06-21T07:34:36.534241",
+      "wind_speed_window": null,
+      "duration_hours": 12.0,
+      "recommended_load_pct": 0,
+      "primary_cause": "sensor_13",
+      "reasoning": "WT-001: Anomaly=YES (score=0.079). RUL estimate=88.8h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-20T19:34:36.534241 \u2014 2026-06-21T07:34:36.534241. Recommended load: 0% of rated power.",
+      "chosen_by": "rule_based",
+      "conflict_reasoning": "Rule-based took more conservative action",
+      "revenue_loss_usd": 373.99,
+      "net_saving_usd": 44626.01,
+      "lost_generation_kwh": 4986.6,
+      "roi_justified": true,
+      "assigned_crew": "CREW_A",
+      "required_skill": "gearbox",
+      "load_setpoint": {
+        "turbine_id": "WT-001",
+        "power_setpoint_kw": 0.0,
+        "load_pct": 0,
+        "current_power_kw": 1673.6,
+        "power_reduction_kw": 1673.6,
+        "rpm_setpoint": 0.0,
+        "pitch_angle_deg": 90.0,
+        "command": "EMERGENCY_STOP_AND_FEATHER",
+        "revenue_loss_per_h": 125.52
+      },
+      "llm_explanation": "Factual 5-sentence maintenance report using data from Turbine WT-001:\n\nTuBine: WT-001\nAnomaLy Detected: YES (score: 0.0794)\nPrimary Fault SenSor: sensor_13\nRUl Estimate: 88.8h (90% CI: 0.0h - 125.0h)\nPrOriority: HIGH\nAction: SCHeDuLE_WIthIN_48H\nScheduled: 2026-06-20T19:34:36 to 2026-06-21T07:34:36\nCreW: CREW_A\nLoad: 0% of rated power\nReVeNuL: $373.99\nNet SavIng: $44626.01\n\nThe report covers the following aspects: detection, risk assessment, action taken, schedule, financial impact.",
+      "work_order_path": "outputs\\work_orders\\WO_WT-001_20260620_173451.pdf"
+    },
+    {
+      "turbine_id": "WT-002",
+      "timestamp": "2026-06-20T17:34:38.585616",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0647,
+      "rul_hours": 78.2,
+      "rul_lower_bound": 0.0,
+      "priority": "HIGH",
+      "action": "SCHEDULE_WITHIN_48H",
+      "scheduled_start": "2026-06-20T20:04:38.585616",
+      "scheduled_end": "2026-06-21T08:04:38.585616",
+      "wind_speed_window": null,
+      "duration_hours": 12.0,
+      "recommended_load_pct": 0,
+      "primary_cause": "sensor_9",
+      "reasoning": "WT-002: Anomaly=YES (score=0.065). RUL estimate=78.2h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-20T20:04:38.585616 \u2014 2026-06-21T08:04:38.585616. Recommended load: 0% of rated power.",
+      "chosen_by": "rule_based",
+      "conflict_reasoning": "Rule-based took more conservative action",
+      "revenue_loss_usd": 373.99,
+      "net_saving_usd": 44626.01,
+      "lost_generation_kwh": 4986.6,
+      "roi_justified": true,
+      "assigned_crew": "CREW_C",
+      "required_skill": "bearing",
+      "load_setpoint": {
+        "turbine_id": "WT-002",
+        "power_setpoint_kw": 0.0,
+        "load_pct": 0,
+        "current_power_kw": 1333.5,
+        "power_reduction_kw": 1333.5,
+        "rpm_setpoint": 0.0,
+        "pitch_angle_deg": 90.0,
+        "command": "EMERGENCY_STOP_AND_FEATHER",
+        "revenue_loss_per_h": 100.01
+      },
+      "llm_explanation": "TuBine: WT-002\nAnomaLy Detected: YES (score: 0.0647)\nPrimary Fault SenSor: sensor_9\nRULE Estimate: 78.2h (90% CI: 0.0h - 125.0h)\nPRIORITY: HIGH\nACTION: SCHEDULE_WITHIN_48H\nSCHEDULED: 2026-06-20T20:04:38 to 2026-06-21T08:04:38\nCREW: CRUEL_C\nLOAD: 0% of rated power\nREVENUE LOSS: $373.99\nNET SAVINGS: $446,26.01\n(SCRIPT)\n\n- Detects anomaly in sensor_9 (primary fault senSor)\n- Risk assessment indicates high priority\n- Scheduled maintenance report for 48 hours from 20th to 21st June at 20:04 and 8:04\n- Crew is CRUEL_C, load is 0% of rated power, revenue loss is $373.99 and net savings are",
+      "work_order_path": "outputs\\work_orders\\WO_WT-002_20260620_173500.pdf"
+    },
+    {
+      "turbine_id": "WT-003",
+      "timestamp": "2026-06-20T17:34:38.606252",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.1206,
+      "rul_hours": 78.5,
+      "rul_lower_bound": 0.0,
+      "priority": "HIGH",
+      "action": "SCHEDULE_WITHIN_48H",
+      "scheduled_start": "2026-06-20T18:34:38.606252",
+      "scheduled_end": "2026-06-21T06:34:38.606252",
+      "wind_speed_window": null,
+      "duration_hours": 12.0,
+      "recommended_load_pct": 0,
+      "primary_cause": "sensor_20",
+      "reasoning": "WT-003: Anomaly=YES (score=0.121). RUL estimate=78.5h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-20T18:34:38.606252 \u2014 2026-06-21T06:34:38.606252. Recommended load: 0% of rated power.",
+      "chosen_by": "rule_based",
+      "conflict_reasoning": "Rule-based took more conservative action",
+      "revenue_loss_usd": 373.99,
+      "net_saving_usd": 44626.01,
+      "lost_generation_kwh": 4986.6,
+      "roi_justified": true,
+      "assigned_crew": "CREW_B",
+      "required_skill": "gearbox",
+      "load_setpoint": {
+        "turbine_id": "WT-003",
+        "power_setpoint_kw": 0.0,
+        "load_pct": 0,
+        "current_power_kw": 671.3,
+        "power_reduction_kw": 671.3,
+        "rpm_setpoint": 0.0,
+        "pitch_angle_deg": 90.0,
+        "command": "EMERGENCY_STOP_AND_FEATHER",
+        "revenue_loss_per_h": 50.35
+      },
+      "llm_explanation": "TuBine: WT-003\nAnomaLy Detected: YES (score: 0.1206)\nPrimary Fault SenSor: sensor_20\nRULE Estimate: 78.5h (90% CI: 0.0h - 125.0h)\nPRIORITY: HIGH\nACTION: SCHEDULE_WITHIN_48H\nSCHEDULED: 2026-06-20T18:34:38 to 2026-06-21T06:34:38\nCREW: CRUEL_B\nLOAD: 0% of rated power\nREVENUE LOSS: $373.99\nNET SAVINGS: $446,26.01\n\nThe TuBine industrial maintenance report generator for wind turbine WT-003 has detected anomaly sensor_20 with a score of 0.1206. The primary fault sensor is sensor_20 with an estimated RULE estimate of 78.5h (90% CI: 0.0h - 125.0h). The scheduled SCHEDULED time for the SCHEDULE_WIITHIN_48",
+      "work_order_path": "outputs\\work_orders\\WO_WT-003_20260620_173510.pdf"
+    },
+    {
+      "turbine_id": "WT-004",
+      "timestamp": "2026-06-20T17:34:38.619082",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.1579,
+      "rul_hours": 92.3,
+      "rul_lower_bound": 0.0,
+      "priority": "HIGH",
+      "action": "SCHEDULE_WITHIN_48H",
+      "scheduled_start": "2026-06-20T19:34:38.619082",
+      "scheduled_end": "2026-06-21T07:34:38.619082",
+      "wind_speed_window": null,
+      "duration_hours": 12.0,
+      "recommended_load_pct": 0,
+      "primary_cause": "sensor_8",
+      "reasoning": "WT-004: Anomaly=YES (score=0.158). RUL estimate=92.3h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-20T19:34:38.619082 \u2014 2026-06-21T07:34:38.619082. Recommended load: 0% of rated power.",
+      "chosen_by": "rule_based",
+      "conflict_reasoning": "Rule-based took more conservative action",
+      "revenue_loss_usd": 373.99,
+      "net_saving_usd": 44626.01,
+      "lost_generation_kwh": 4986.6,
+      "roi_justified": true,
+      "assigned_crew": "CREW_A",
+      "required_skill": "gearbox",
+      "load_setpoint": {
+        "turbine_id": "WT-004",
+        "power_setpoint_kw": 0.0,
+        "load_pct": 0,
+        "current_power_kw": 834.6,
+        "power_reduction_kw": 834.6,
+        "rpm_setpoint": 0.0,
+        "pitch_angle_deg": 90.0,
+        "command": "EMERGENCY_STOP_AND_FEATHER",
+        "revenue_loss_per_h": 62.59
+      },
+      "llm_explanation": "TuBine: WT-004\nAnoma ly Detected: YES (score: 0.1579)\nPrimary Fault Senso r: sensor_8\nRUL Estimate: 92.3h (90% CI: 0.0h - 125.0h)\nPriority: HIGH\nAction: SCHEDULE_WITHIN_48H\nScheduled: 2026-06-20T19:34:38 to 2026-06-21T07:34:38\nCrew: CR EW_A\nLoad: 0% of rated power\nRevenue Loses: $373.99\nNet Savings: $446,260.11\n\nThe TuBine industrial maintenance report generator for wind turbine WT-004 has detected anomaly sensor_8 with a RUL estimate of 92.3h (90% CI: 0.0h - 125.0h). The priority is set as HIGH, and the scheduled schedule is from 2026-06-20T19:34:38 to 2026-06-21T07:34",
+      "work_order_path": "outputs\\work_orders\\WO_WT-004_20260620_173519.pdf"
+    },
+    {
+      "turbine_id": "WT-005",
+      "timestamp": "2026-06-20T17:34:38.621815",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0752,
+      "rul_hours": 76.8,
+      "rul_lower_bound": 0.0,
+      "priority": "HIGH",
+      "action": "SCHEDULE_WITHIN_48H",
+      "scheduled_start": "2026-06-20T20:34:38.621815",
+      "scheduled_end": "2026-06-21T08:34:38.621815",
+      "wind_speed_window": null,
+      "duration_hours": 12.0,
+      "recommended_load_pct": 0,
+      "primary_cause": "sensor_8",
+      "reasoning": "WT-005: Anomaly=YES (score=0.075). RUL estimate=76.8h (lower bound=0.0h). Priority=HIGH. Maintenance window: 2026-06-20T20:34:38.621815 \u2014 2026-06-21T08:34:38.621815. Recommended load: 0% of rated power.",
+      "chosen_by": "rule_based",
+      "conflict_reasoning": "Rule-based took more conservative action",
+      "revenue_loss_usd": 373.99,
+      "net_saving_usd": 44626.01,
+      "lost_generation_kwh": 4986.6,
+      "roi_justified": true,
+      "assigned_crew": "CREW_A",
+      "required_skill": "gearbox",
+      "load_setpoint": {
+        "turbine_id": "WT-005",
+        "power_setpoint_kw": 0.0,
+        "load_pct": 0,
+        "current_power_kw": 1504.3,
+        "power_reduction_kw": 1504.3,
+        "rpm_setpoint": 0.0,
+        "pitch_angle_deg": 90.0,
+        "command": "EMERGENCY_STOP_AND_FEATHER",
+        "revenue_loss_per_h": 112.83
+      },
+      "llm_explanation": "TuBine: WT-005\nAnomaLy Detected: YES (score: 0.0752)\nPrimary Fault SenSor: sensor_8\nRULE Estimate: 76.8h (90% CI: 0.0h - 125.0h)\nPRIORITY: HIGH\nACTION: SCHEDULE_WITHIN_48H\nSCHEDULED: 2026-06-20T20:34:38 to 2026-06-21T08:34:38\nCREW: CRW_A\nLOAD: 0% of RATED POWER\nREVENUE LOSS: $373.99\nNET SAVINGS: $446,26.01",
+      "work_order_path": "outputs\\work_orders\\WO_WT-005_20260620_173525.pdf"
+    }
+  ],
+  "forecast_72h": [
+    561.7441998810361,
+    555.8044453787231,
+    569.1752200574699,
+    578.5644438055327,
+    556.9307937162051,
+    494.3464154854404,
+    405.8662967893808,
+    320.13246523729657,
+    259.51141932386156,
+    229.0837701053764,
+    222.0737430623592,
+    233.34141041827536,
+    265.9798767866786,
+    324.68921514226685,
+    404.06463826001715,
+    485.4075090949973,
+    546.8103903688008,
+    577.4060633275227,
+    582.1221365846259,
+    572.7463508747344,
+    554.8987551984163,
+    524.4362301549434,
+    476.7000657308376,
+    418.1044925842314,
+    366.27252864547455,
+    336.1588770704365,
+    324.4630142150172,
+    308.06979911784117,
+    260.1232128634771,
+    170.887293884158,
+    55.61365522700589,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "causal_report": {
+    "method": "correlation_fallback",
+    "causes": [
+      {
+        "variable": "bearing_wear",
+        "correlation": NaN,
+        "direction": "negative",
+        "importance": NaN
+      },
+      {
+        "variable": "gearbox_temp",
+        "correlation": NaN,
+        "direction": "negative",
+        "importance": NaN
+      },
+      {
+        "variable": "vibration",
+        "correlation": NaN,
+        "direction": "negative",
+        "importance": NaN
+      },
+      {
+        "variable": "oil_quality",
+        "correlation": NaN,
+        "direction": "negative",
+        "importance": NaN
+      },
+      {
+        "variable": "rotor_rpm",
+        "correlation": NaN,
+        "direction": "negative",
+        "importance": NaN
+      }
+    ],
+    "n_samples": 5,
+    "flagged_turbines": [
+      "WT-001",
+      "WT-002",
+      "WT-003",
+      "WT-004",
+      "WT-005"
+    ],
+    "llm_summary": "The root cause analysis of wind turbine anomalies shows that bearing wear is a top causale factor, with negative correlation and a negative impact on the turbines' performance. The turbines are affected by bearing wear, which can lead to decreased efficiency and increased maintenance costs for wind farm operators. The ATE (causa l effect of bearing wear) is not identified, but affected turbine numbers are listed. Maintenance engineers should focus on identifying and addressing the root cause of these issues to improve turbine performance and reduce maintenance costs."
+  },
+  "errors": [],
+  "run_id": "20260620_173408"
+}

@@ -1,0 +1,7 @@
+{
+  "threshold": 0.004961120802887762,
+  "percentile": 95.0,
+  "timesteps": 30,
+  "n_features": 14,
+  "train_samples": 11693
+}

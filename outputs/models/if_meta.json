@@ -1,0 +1,6 @@
+{
+  "n_estimators": 200,
+  "contamination": 0.1756204173716864,
+  "n_features": 18,
+  "anomaly_rate": 0.1756543868153175
+}

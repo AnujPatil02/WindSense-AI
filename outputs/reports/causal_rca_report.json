@@ -1,0 +1,45 @@
+{
+  "method": "DoWhy causal inference",
+  "treatment": "bearing_wear",
+  "outcome": "anomaly",
+  "ate": -1.285894,
+  "ate_interpretation": "A unit increase in bearing wear increases anomaly probability by -1.2859",
+  "causes": [
+    {
+      "variable": "bearing_wear",
+      "correlation": 0.5341,
+      "direction": "negative",
+      "importance": 0.5341
+    },
+    {
+      "variable": "oil_quality",
+      "correlation": 0.3915,
+      "direction": "negative",
+      "importance": 0.3915
+    },
+    {
+      "variable": "vibration",
+      "correlation": 0.3857,
+      "direction": "negative",
+      "importance": 0.3857
+    },
+    {
+      "variable": "rotor_rpm",
+      "correlation": 0.3231,
+      "direction": "negative",
+      "importance": 0.3231
+    },
+    {
+      "variable": "gearbox_temp",
+      "correlation": 0.1382,
+      "direction": "negative",
+      "importance": 0.1382
+    }
+  ],
+  "n_samples": 19,
+  "flagged_turbines": [
+    "WT-001",
+    "WT-002"
+  ],
+  "llm_summary": "The top causal factors for wind turbine anomalies are bearing wear, oil quality, and vibration, as per the root cause analysis conducted by an industrial AI system. The analysis shows that negative correlations exist between these factors, with a coefficient of -1.2858935524281583 for bearing wear, a coefficient of 0.3915 for oil quality, and a coefficient of 0.3857 for vibration. The analysis recommends that maintenance engineers focus on actionable insights to prevent or mitigate these anomalies in wind turbines."
+}

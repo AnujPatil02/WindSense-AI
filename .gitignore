@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+digital-twin/node_modules/
+digital-twin/dist/
+
+# ML tracking (regenerable, huge)
+mlruns/
+mlartifacts/
+
+# Generated data (huge / regenerable via scripts)
+data/processed/*.npy
+data/raw/cmapss/*.txt
+outputs/work_orders/*.pdf
+
+# IDE
+.vscode/
+*.log

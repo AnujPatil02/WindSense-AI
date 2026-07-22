@@ -1,0 +1,7 @@
+{
+  "drift_detected": true,
+  "n_drifted_columns": 5,
+  "total_columns": 10,
+  "drift_share": 0.5,
+  "report_path": "outputs\\reports\\drift_report.html"
+}

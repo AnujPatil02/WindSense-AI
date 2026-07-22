@@ -1,0 +1,458 @@
+{
+  "anomalies": [
+    {
+      "turbine_id": "WT-001",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0919,
+      "primary_cause": "sensor_13",
+      "top_sensors": [
+        {
+          "sensor": "sensor_13",
+          "error": 0.365283,
+          "contribution": 0.2838
+        },
+        {
+          "sensor": "sensor_2",
+          "error": 0.181696,
+          "contribution": 0.1412
+        },
+        {
+          "sensor": "sensor_20",
+          "error": 0.155593,
+          "contribution": 0.1209
+        }
+      ]
+    },
+    {
+      "turbine_id": "WT-002",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.1079,
+      "primary_cause": "sensor_14",
+      "top_sensors": [
+        {
+          "sensor": "sensor_14",
+          "error": 0.471453,
+          "contribution": 0.312
+        },
+        {
+          "sensor": "sensor_15",
+          "error": 0.18889,
+          "contribution": 0.125
+        },
+        {
+          "sensor": "sensor_8",
+          "error": 0.173259,
+          "contribution": 0.1147
+        }
+      ]
+    },
+    {
+      "turbine_id": "WT-003",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0694,
+      "primary_cause": "sensor_9",
+      "top_sensors": [
+        {
+          "sensor": "sensor_9",
+          "error": 0.23889,
+          "contribution": 0.246
+        },
+        {
+          "sensor": "sensor_8",
+          "error": 0.167381,
+          "contribution": 0.1724
+        },
+        {
+          "sensor": "sensor_17",
+          "error": 0.152615,
+          "contribution": 0.1572
+        }
+      ]
+    },
+    {
+      "turbine_id": "WT-004",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.1052,
+      "primary_cause": "sensor_9",
+      "top_sensors": [
+        {
+          "sensor": "sensor_9",
+          "error": 0.22293,
+          "contribution": 0.1513
+        },
+        {
+          "sensor": "sensor_3",
+          "error": 0.218327,
+          "contribution": 0.1482
+        },
+        {
+          "sensor": "sensor_8",
+          "error": 0.209396,
+          "contribution": 0.1422
+        }
+      ]
+    },
+    {
+      "turbine_id": "WT-005",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0975,
+      "primary_cause": "sensor_14",
+      "top_sensors": [
+        {
+          "sensor": "sensor_14",
+          "error": 0.27424,
+          "contribution": 0.201
+        },
+        {
+          "sensor": "sensor_17",
+          "error": 0.209582,
+          "contribution": 0.1536
+        },
+        {
+          "sensor": "sensor_15",
+          "error": 0.1725,
+          "contribution": 0.1264
+        }
+      ]
+    }
+  ],
+  "rul_results": [
+    {
+      "turbine_id": "WT-001",
+      "rul_hours": 125.0,
+      "lower_hours": 100.0,
+      "upper_hours": 125.0,
+      "coverage": "90%"
+    },
+    {
+      "turbine_id": "WT-002",
+      "rul_hours": 125.0,
+      "lower_hours": 100.0,
+      "upper_hours": 125.0,
+      "coverage": "90%"
+    },
+    {
+      "turbine_id": "WT-003",
+      "rul_hours": 125.0,
+      "lower_hours": 100.0,
+      "upper_hours": 125.0,
+      "coverage": "90%"
+    },
+    {
+      "turbine_id": "WT-004",
+      "rul_hours": 125.0,
+      "lower_hours": 100.0,
+      "upper_hours": 125.0,
+      "coverage": "90%"
+    },
+    {
+      "turbine_id": "WT-005",
+      "rul_hours": 125.0,
+      "lower_hours": 100.0,
+      "upper_hours": 125.0,
+      "coverage": "90%"
+    }
+  ],
+  "decisions": [
+    {
+      "turbine_id": "WT-001",
+      "timestamp": "2026-05-19T05:35:41.775951",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0919,
+      "rul_hours": 125.0,
+      "rul_lower_bound": 100.0,
+      "priority": "MEDIUM",
+      "action": "SCHEDULE_WITHIN_7_DAYS",
+      "scheduled_start": "2026-05-20T12:35:41.775951",
+      "scheduled_end": "2026-05-20T19:35:41.775951",
+      "wind_speed_window": 0.0,
+      "recommended_load_pct": 100,
+      "primary_cause": "sensor_13",
+      "reasoning": "WT-001: Anomaly=YES (score=0.092). RUL estimate=125.0h (lower bound=100.0h). Priority=MEDIUM. Maintenance window: 2026-05-20T12:35:41.775951 \u2014 2026-05-20T19:35:41.775951. Recommended load: 100% of rated power.",
+      "chosen_by": "rule_based",
+      "conflict_reasoning": "Rule-based scheduler took more conservative action",
+      "revenue_loss_usd": 0.0,
+      "net_saving_usd": 45000.0,
+      "lost_generation_kwh": 0.0,
+      "assigned_crew": "CREW_A",
+      "required_skill": "gearbox",
+      "crew_reasoning": "CREW_A assigned \u2014 skill match: gearbox",
+      "load_setpoint": {
+        "turbine_id": "WT-001",
+        "power_setpoint_kw": 2000.0,
+        "load_pct": 100,
+        "current_power_kw": 1571.6,
+        "power_reduction_kw": 0,
+        "rpm_setpoint": 16.5,
+        "pitch_angle_deg": 0.0,
+        "command": "NORMAL_OPERATION",
+        "revenue_loss_per_h": -32.13
+      },
+      "llm_explanation": "WT-001 gearbox anomaly detected (score: 0.092) on sensor_13. Failure Predictor estimates 125.0h remaining (lower bound: 100.0h). Priority: MEDIUM. Action: SCHEDULE_WITHIN_7_DAYS. Scheduled: 2026-05-20T12:35:41.775951. Crew: CREW_A. Revenue impact: $0.00."
+    },
+    {
+      "turbine_id": "WT-002",
+      "timestamp": "2026-05-19T05:35:41.775951",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.1079,
+      "rul_hours": 125.0,
+      "rul_lower_bound": 100.0,
+      "priority": "MEDIUM",
+      "action": "SCHEDULE_WITHIN_7_DAYS",
+      "scheduled_start": "2026-05-20T12:35:41.775951",
+      "scheduled_end": "2026-05-20T19:35:41.775951",
+      "wind_speed_window": 0.0,
+      "recommended_load_pct": 100,
+      "primary_cause": "sensor_14",
+      "reasoning": "WT-002: Anomaly=YES (score=0.108). RUL estimate=125.0h (lower bound=100.0h). Priority=MEDIUM. Maintenance window: 2026-05-20T12:35:41.775951 \u2014 2026-05-20T19:35:41.775951. Recommended load: 100% of rated power.",
+      "chosen_by": "rule_based",
+      "conflict_reasoning": "Rule-based scheduler took more conservative action",
+      "revenue_loss_usd": 0.0,
+      "net_saving_usd": 45000.0,
+      "lost_generation_kwh": 0.0,
+      "assigned_crew": "CREW_C",
+      "required_skill": "gearbox",
+      "crew_reasoning": "CREW_C assigned \u2014 skill match: gearbox",
+      "load_setpoint": {
+        "turbine_id": "WT-002",
+        "power_setpoint_kw": 2000.0,
+        "load_pct": 100,
+        "current_power_kw": 1305.7,
+        "power_reduction_kw": 0,
+        "rpm_setpoint": 16.5,
+        "pitch_angle_deg": 0.0,
+        "command": "NORMAL_OPERATION",
+        "revenue_loss_per_h": -52.07
+      },
+      "llm_explanation": "WT-002 gearbox anomaly detected (score: 0.108) on sensor_14. Failure Predictor estimates 125.0h remaining (lower bound: 100.0h). Priority: MEDIUM. Action: SCHEDULE_WITHIN_7_DAYS. Scheduled: 2026-05-20T12:35:41.775951. Crew: CREW_C. Revenue impact: $0.00."
+    },
+    {
+      "turbine_id": "WT-003",
+      "timestamp": "2026-05-19T05:35:41.775951",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0694,
+      "rul_hours": 125.0,
+      "rul_lower_bound": 100.0,
+      "priority": "MEDIUM",
+      "action": "SCHEDULE_WITHIN_7_DAYS",
+      "scheduled_start": "2026-05-20T12:35:41.775951",
+      "scheduled_end": "2026-05-20T19:35:41.775951",
+      "wind_speed_window": 0.0,
+      "recommended_load_pct": 100,
+      "primary_cause": "sensor_9",
+      "reasoning": "WT-003: Anomaly=YES (score=0.069). RUL estimate=125.0h (lower bound=100.0h). Priority=MEDIUM. Maintenance window: 2026-05-20T12:35:41.775951 \u2014 2026-05-20T19:35:41.775951. Recommended load: 100% of rated power.",
+      "chosen_by": "rule_based",
+      "conflict_reasoning": "Rule-based scheduler took more conservative action",
+      "revenue_loss_usd": 0.0,
+      "net_saving_usd": 45000.0,
+      "lost_generation_kwh": 0.0,
+      "assigned_crew": "CREW_B",
+      "required_skill": "gearbox",
+      "crew_reasoning": "CREW_B assigned \u2014 skill match: gearbox",
+      "load_setpoint": {
+        "turbine_id": "WT-003",
+        "power_setpoint_kw": 2000.0,
+        "load_pct": 100,
+        "current_power_kw": 1716.1,
+        "power_reduction_kw": 0,
+        "rpm_setpoint": 16.5,
+        "pitch_angle_deg": 0.0,
+        "command": "NORMAL_OPERATION",
+        "revenue_loss_per_h": -21.29
+      },
+      "llm_explanation": "WT-003 gearbox anomaly detected (score: 0.069) on sensor_9. Failure Predictor estimates 125.0h remaining (lower bound: 100.0h). Priority: MEDIUM. Action: SCHEDULE_WITHIN_7_DAYS. Scheduled: 2026-05-20T12:35:41.775951. Crew: CREW_B. Revenue impact: $0.00."
+    },
+    {
+      "turbine_id": "WT-004",
+      "timestamp": "2026-05-19T05:35:41.782071",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.1052,
+      "rul_hours": 125.0,
+      "rul_lower_bound": 100.0,
+      "priority": "MEDIUM",
+      "action": "SCHEDULE_WITHIN_7_DAYS",
+      "scheduled_start": "2026-05-20T12:35:41.782071",
+      "scheduled_end": "2026-05-20T19:35:41.782071",
+      "wind_speed_window": 0.0,
+      "recommended_load_pct": 100,
+      "primary_cause": "sensor_9",
+      "reasoning": "WT-004: Anomaly=YES (score=0.105). RUL estimate=125.0h (lower bound=100.0h). Priority=MEDIUM. Maintenance window: 2026-05-20T12:35:41.782071 \u2014 2026-05-20T19:35:41.782071. Recommended load: 100% of rated power.",
+      "chosen_by": "rule_based",
+      "conflict_reasoning": "Rule-based scheduler took more conservative action",
+      "revenue_loss_usd": 0.0,
+      "net_saving_usd": 45000.0,
+      "lost_generation_kwh": 0.0,
+      "assigned_crew": "CREW_PENDING",
+      "required_skill": "gearbox",
+      "crew_reasoning": "No crew available \u2014 queued",
+      "load_setpoint": {
+        "turbine_id": "WT-004",
+        "power_setpoint_kw": 2000.0,
+        "load_pct": 100,
+        "current_power_kw": 1269.3,
+        "power_reduction_kw": 0,
+        "rpm_setpoint": 16.5,
+        "pitch_angle_deg": 0.0,
+        "command": "NORMAL_OPERATION",
+        "revenue_loss_per_h": -54.81
+      },
+      "llm_explanation": "WT-004 gearbox anomaly detected (score: 0.105) on sensor_9. Failure Predictor estimates 125.0h remaining (lower bound: 100.0h). Priority: MEDIUM. Action: SCHEDULE_WITHIN_7_DAYS. Scheduled: 2026-05-20T12:35:41.782071. Crew: CREW_PENDING. Revenue impact: $0.00."
+    },
+    {
+      "turbine_id": "WT-005",
+      "timestamp": "2026-05-19T05:35:41.785013",
+      "anomaly_flag": 1,
+      "anomaly_score": 0.0975,
+      "rul_hours": 125.0,
+      "rul_lower_bound": 100.0,
+      "priority": "MEDIUM",
+      "action": "SCHEDULE_WITHIN_7_DAYS",
+      "scheduled_start": "2026-05-20T12:35:41.785013",
+      "scheduled_end": "2026-05-20T19:35:41.785013",
+      "wind_speed_window": 0.0,
+      "recommended_load_pct": 100,
+      "primary_cause": "sensor_14",
+      "reasoning": "WT-005: Anomaly=YES (score=0.098). RUL estimate=125.0h (lower bound=100.0h). Priority=MEDIUM. Maintenance window: 2026-05-20T12:35:41.785013 \u2014 2026-05-20T19:35:41.785013. Recommended load: 100% of rated power.",
+      "chosen_by": "rule_based",
+      "conflict_reasoning": "Rule-based scheduler took more conservative action",
+      "revenue_loss_usd": 0.0,
+      "net_saving_usd": 45000.0,
+      "lost_generation_kwh": 0.0,
+      "assigned_crew": "CREW_PENDING",
+      "required_skill": "gearbox",
+      "crew_reasoning": "No crew available \u2014 queued",
+      "load_setpoint": {
+        "turbine_id": "WT-005",
+        "power_setpoint_kw": 2000.0,
+        "load_pct": 100,
+        "current_power_kw": 596.8,
+        "power_reduction_kw": 0,
+        "rpm_setpoint": 16.5,
+        "pitch_angle_deg": 0.0,
+        "command": "NORMAL_OPERATION",
+        "revenue_loss_per_h": -105.24
+      },
+      "llm_explanation": "WT-005 gearbox anomaly detected (score: 0.098) on sensor_14. Failure Predictor estimates 125.0h remaining (lower bound: 100.0h). Priority: MEDIUM. Action: SCHEDULE_WITHIN_7_DAYS. Scheduled: 2026-05-20T12:35:41.785013. Crew: CREW_PENDING. Revenue impact: $0.00."
+    }
+  ],
+  "forecast_72h": [
+    561.7453623353279,
+    555.8056969051379,
+    569.1765245302279,
+    578.5657494946821,
+    556.9320586955673,
+    494.34762295037183,
+    405.8674507909629,
+    320.1335756208988,
+    259.51249317712666,
+    229.0848177786637,
+    222.07478963989843,
+    233.3424961265613,
+    265.98104007345114,
+    324.69047005827423,
+    404.0659653892506,
+    485.40886859069667,
+    546.8117466206995,
+    577.4074015573183,
+    582.1234607044385,
+    572.7476698449146,
+    554.9000741892374,
+    524.4375547243575,
+    476.70141111007115,
+    418.10588311660763,
+    366.2739820844978,
+    336.16038515931126,
+    324.46453748976364,
+    308.07128281961707,
+    260.12461238468234,
+    170.8885901206694,
+    55.61485034272005,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "causal_report": {
+    "method": "correlation_fallback",
+    "causes": [
+      {
+        "variable": "bearing_wear",
+        "correlation": NaN,
+        "direction": "negative",
+        "importance": NaN
+      },
+      {
+        "variable": "gearbox_temp",
+        "correlation": NaN,
+        "direction": "negative",
+        "importance": NaN
+      },
+      {
+        "variable": "vibration",
+        "correlation": NaN,
+        "direction": "negative",
+        "importance": NaN
+      },
+      {
+        "variable": "oil_quality",
+        "correlation": NaN,
+        "direction": "negative",
+        "importance": NaN
+      },
+      {
+        "variable": "rotor_rpm",
+        "correlation": NaN,
+        "direction": "negative",
+        "importance": NaN
+      }
+    ],
+    "n_samples": 5,
+    "flagged_turbines": [
+      "WT-001",
+      "WT-002",
+      "WT-003",
+      "WT-004",
+      "WT-005"
+    ],
+    "llm_summary": "Primary root cause identified: bearing_wear. 5 turbines affected. Recommend immediate inspection of bearing_wear."
+  },
+  "errors": [],
+  "run_id": "20260519_053526"
+}

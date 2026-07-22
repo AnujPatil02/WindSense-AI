@@ -1,0 +1,10 @@
+{
+    "title": "WindSense-AI Live Sensors",
+    "panels": [
+      {"title":"Vibration (mm/s)","type":"timeseries","gridPos":{"x":0,"y":0,"w":12,"h":8}},
+      {"title":"Power Output (kW)","type":"timeseries","gridPos":{"x":12,"y":0,"w":12,"h":8}},
+      {"title":"Gearbox Temp (°C)","type":"timeseries","gridPos":{"x":0,"y":8,"w":12,"h":8}},
+      {"title":"Health Score","type":"gauge","gridPos":{"x":12,"y":8,"w":12,"h":8}}
+    ],
+    "refresh": "5s"
+  }

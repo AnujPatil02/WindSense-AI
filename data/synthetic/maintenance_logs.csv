@@ -1,0 +1,501 @@
+log_id,date,turbine_id,fault_type,severity,anomaly_score,sensor_reading,sensor_unit,action_taken,technician,downtime_hours,repair_cost_usd,resolution
+LOG-0361,2020-01-05,WT-002,Rotor blade imbalance,High,0.774,7.94,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,26.2,16024.7,Resolved
+LOG-0104,2020-01-06,WT-013,Generator overheating,High,0.625,1.71,°C,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Rahul Gupta,61.9,4044.86,Resolved
+LOG-0227,2020-01-11,WT-002,Yaw system misalignment,High,0.544,1.45,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,32.6,19152.99,Monitoring
+LOG-0190,2020-01-14,WT-006,Cooling fan failure,High,0.665,2.98,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,28.2,11445.02,Resolved
+LOG-0399,2020-01-14,WT-015,Cooling fan failure,Medium,0.64,5.29,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,32.2,6134.77,Resolved
+LOG-0119,2020-01-16,WT-010,Main shaft fatigue crack,Medium,0.628,1.78,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,22.4,5675.23,Resolved
+LOG-0446,2020-01-17,WT-012,Generator overheating,Medium,0.71,2.52,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,7.4,860.76,Resolved
+LOG-0385,2020-01-23,WT-011,Pitch control failure,Medium,0.769,6.05,mm/s,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Amit Patel,9.7,623.23,Resolved
+LOG-0426,2020-01-25,WT-012,Yaw system misalignment,Medium,0.931,3.86,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,27.9,2968.32,Resolved
+LOG-0277,2020-01-26,WT-001,Oil contamination,Medium,0.589,9.06,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,4.3,9417.42,Monitoring
+LOG-0053,2020-02-11,WT-004,Gearbox bearing wear,Medium,0.974,1.56,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Priya Sharma,17.9,12102.25,Resolved
+LOG-0122,2020-02-12,WT-002,Pitch control failure,High,0.845,4.78,bar,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Neha Singh,13.2,23716.55,Resolved
+LOG-0401,2020-02-15,WT-003,Vibration sensor drift,Medium,0.815,2.0,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,4.1,14550.42,Resolved
+LOG-0419,2020-02-26,WT-015,Cooling fan failure,Critical,0.997,6.39,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,9.3,2155.08,Resolved
+LOG-0307,2020-03-09,WT-008,Generator overheating,High,0.671,1.47,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,2.4,6897.63,Resolved
+LOG-0094,2020-03-09,WT-013,Pitch control failure,High,0.874,3.24,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Neha Singh,53.0,2708.27,Resolved
+LOG-0315,2020-03-12,WT-002,Pitch control failure,Medium,0.992,2.11,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Neha Singh,9.5,19051.12,Resolved
+LOG-0186,2020-03-15,WT-007,Generator overheating,Critical,0.936,7.47,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Priya Sharma,56.9,5064.63,Resolved
+LOG-0149,2020-03-15,WT-008,Oil contamination,Medium,0.828,0.94,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,21.3,21622.39,Resolved
+LOG-0148,2020-03-16,WT-012,Rotor blade imbalance,High,0.658,8.74,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Neha Singh,15.3,19882.18,Monitoring
+LOG-0099,2020-03-17,WT-003,Rotor blade imbalance,High,0.769,2.68,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Ravi Kumar,71.7,3344.95,Monitoring
+LOG-0073,2020-03-22,WT-002,Cooling fan failure,Critical,0.614,0.74,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,53.2,15290.98,Resolved
+LOG-0493,2020-03-26,WT-007,Hydraulic system pressure drop,Critical,0.786,9.23,mm/s,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,52.1,10156.69,Resolved
+LOG-0197,2020-04-02,WT-010,Hydraulic system pressure drop,Critical,0.967,9.75,mm/s,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Ravi Kumar,25.5,2062.12,Monitoring
+LOG-0065,2020-04-03,WT-003,Oil contamination,Low,0.934,1.67,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,40.3,17586.73,Resolved
+LOG-0279,2020-04-04,WT-013,Hydraulic system pressure drop,Critical,0.922,3.13,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Rahul Gupta,5.9,11894.81,Resolved
+LOG-0117,2020-04-11,WT-003,Generator overheating,Low,0.721,5.02,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Rahul Gupta,20.3,16717.5,Resolved
+LOG-0208,2020-04-15,WT-012,Oil contamination,High,0.536,0.87,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,27.8,15321.75,Monitoring
+LOG-0177,2020-04-15,WT-010,Vibration sensor drift,Critical,0.921,6.26,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,13.1,15911.12,Resolved
+LOG-0224,2020-04-19,WT-009,Rotor blade imbalance,Low,0.885,3.67,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,32.0,21047.53,Resolved
+LOG-0019,2020-04-20,WT-007,Main shaft fatigue crack,Low,0.555,7.95,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,5.3,18341.23,Resolved
+LOG-0356,2020-04-21,WT-015,Oil contamination,Low,0.926,8.39,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Rahul Gupta,46.7,4344.72,Resolved
+LOG-0387,2020-04-21,WT-003,Rotor blade imbalance,Critical,0.625,6.75,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,46.8,2292.04,Monitoring
+LOG-0273,2020-04-22,WT-010,Cooling fan failure,High,0.506,2.13,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,48.3,16622.28,Resolved
+LOG-0324,2020-04-28,WT-015,Hydraulic system pressure drop,Medium,0.6,3.85,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,3.3,1738.7,Monitoring
+LOG-0023,2020-04-29,WT-005,Hydraulic system pressure drop,Low,0.751,5.93,°C,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,54.1,1900.55,Resolved
+LOG-0254,2020-05-01,WT-013,Generator overheating,High,0.625,8.55,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,62.6,3608.76,Resolved
+LOG-0300,2020-05-01,WT-015,Generator overheating,Low,0.555,1.82,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Amit Patel,11.5,17765.06,Resolved
+LOG-0270,2020-05-03,WT-004,Pitch control failure,Critical,0.708,5.16,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Ravi Kumar,37.0,15899.98,Resolved
+LOG-0484,2020-05-06,WT-009,Hydraulic system pressure drop,High,0.515,8.08,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Amit Patel,63.4,22314.85,Resolved
+LOG-0191,2020-05-07,WT-012,Yaw system misalignment,Low,0.962,6.88,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Priya Sharma,34.0,4413.06,Resolved
+LOG-0323,2020-05-14,WT-013,Oil contamination,High,0.762,7.76,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,51.4,10382.94,Resolved
+LOG-0111,2020-05-17,WT-003,Yaw system misalignment,Low,0.869,1.4,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,60.1,2784.14,Resolved
+LOG-0027,2020-05-20,WT-015,Generator overheating,Medium,0.852,8.25,mm/s,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Amit Patel,27.2,4364.8,Resolved
+LOG-0024,2020-05-20,WT-002,Oil contamination,Low,0.945,1.61,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,48.9,6262.5,Resolved
+LOG-0026,2020-05-28,WT-008,Pitch control failure,Low,0.537,9.76,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Amit Patel,33.5,24962.13,Resolved
+LOG-0166,2020-05-29,WT-005,Main shaft fatigue crack,Low,0.67,4.82,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,12.2,10682.73,Resolved
+LOG-0067,2020-05-31,WT-007,Rotor blade imbalance,Low,0.543,9.33,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Neha Singh,11.8,20372.98,Resolved
+LOG-0157,2020-05-31,WT-002,Hydraulic system pressure drop,Critical,0.905,9.77,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,13.3,17977.56,Resolved
+LOG-0085,2020-06-02,WT-007,Generator overheating,Critical,0.699,6.3,mm/s,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Priya Sharma,56.5,6993.06,Resolved
+LOG-0392,2020-06-03,WT-012,Pitch control failure,Low,0.789,8.06,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Ravi Kumar,61.3,15974.85,Resolved
+LOG-0055,2020-06-04,WT-012,Main shaft fatigue crack,Medium,0.8,8.41,mm/s,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Priya Sharma,8.2,19425.78,Resolved
+LOG-0124,2020-06-05,WT-013,Yaw system misalignment,Low,0.676,7.72,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Priya Sharma,38.7,5250.64,Resolved
+LOG-0316,2020-06-09,WT-001,Generator overheating,Critical,0.798,1.88,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,15.3,20652.82,Resolved
+LOG-0142,2020-06-11,WT-010,Cooling fan failure,Low,0.864,5.6,RPM,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Ravi Kumar,19.2,20956.6,Resolved
+LOG-0249,2020-06-18,WT-008,Cooling fan failure,Low,0.612,0.8,bar,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,57.5,5902.97,Resolved
+LOG-0076,2020-06-29,WT-001,Oil contamination,High,0.932,7.68,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Neha Singh,18.9,3340.08,Monitoring
+LOG-0394,2020-07-04,WT-009,Cooling fan failure,Critical,0.982,2.72,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,26.8,759.5,Resolved
+LOG-0412,2020-07-05,WT-007,Generator overheating,Medium,0.632,1.32,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,34.5,15206.01,Resolved
+LOG-0291,2020-07-07,WT-013,Cooling fan failure,High,0.962,0.97,RPM,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,9.7,23585.88,Monitoring
+LOG-0021,2020-07-10,WT-014,Oil contamination,Medium,0.701,2.49,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,12.8,12398.21,Resolved
+LOG-0260,2020-07-10,WT-014,Generator overheating,High,0.583,8.91,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Amit Patel,18.8,9610.17,Resolved
+LOG-0449,2020-07-11,WT-004,Gearbox bearing wear,Medium,0.662,3.4,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Neha Singh,34.6,17195.34,Resolved
+LOG-0350,2020-07-13,WT-012,Main shaft fatigue crack,Low,0.664,6.52,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,1.7,3890.66,Resolved
+LOG-0355,2020-07-14,WT-009,Oil contamination,Critical,0.838,3.72,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Rahul Gupta,48.0,6590.14,Resolved
+LOG-0462,2020-07-17,WT-004,Rotor blade imbalance,Low,0.763,2.26,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,52.5,13525.7,Resolved
+LOG-0168,2020-07-17,WT-004,Cooling fan failure,Low,0.624,6.22,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,21.6,9911.67,Resolved
+LOG-0407,2020-07-19,WT-013,Vibration sensor drift,Critical,0.93,2.66,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,10.5,12189.96,Monitoring
+LOG-0109,2020-07-22,WT-010,Oil contamination,Low,0.86,7.65,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Neha Singh,61.5,16447.46,Monitoring
+LOG-0251,2020-07-28,WT-004,Oil contamination,Medium,0.674,4.68,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Neha Singh,22.1,24983.16,Monitoring
+LOG-0436,2020-07-29,WT-003,Hydraulic system pressure drop,Low,0.513,5.6,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,5.5,22027.93,Resolved
+LOG-0397,2020-07-30,WT-011,Gearbox bearing wear,High,0.587,5.56,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,60.3,6951.24,Resolved
+LOG-0113,2020-07-31,WT-005,Vibration sensor drift,Medium,0.675,8.38,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Amit Patel,12.0,12313.64,Resolved
+LOG-0238,2020-08-04,WT-013,Yaw system misalignment,Low,0.779,7.45,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,8.0,5939.03,Monitoring
+LOG-0383,2020-08-05,WT-006,Rotor blade imbalance,High,0.883,1.3,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,56.9,7883.09,Monitoring
+LOG-0091,2020-08-06,WT-007,Hydraulic system pressure drop,Medium,0.85,3.25,mm/s,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,28.1,9294.5,Monitoring
+LOG-0348,2020-08-14,WT-001,Gearbox bearing wear,Critical,0.862,5.26,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Ravi Kumar,11.6,2707.03,Resolved
+LOG-0194,2020-08-17,WT-015,Rotor blade imbalance,Low,0.768,2.38,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,59.8,22620.76,Resolved
+LOG-0496,2020-08-19,WT-002,Cooling fan failure,Medium,0.568,6.97,RPM,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,56.3,23477.14,Resolved
+LOG-0245,2020-08-21,WT-007,Vibration sensor drift,High,0.837,2.1,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,26.0,11717.58,Resolved
+LOG-0346,2020-08-29,WT-009,Rotor blade imbalance,High,0.6,2.35,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,9.1,3103.46,Resolved
+LOG-0488,2020-08-30,WT-009,Rotor blade imbalance,Medium,0.883,7.26,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,23.5,22051.13,Monitoring
+LOG-0400,2020-08-30,WT-006,Generator overheating,Medium,0.838,1.55,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Rahul Gupta,30.4,8590.51,Resolved
+LOG-0262,2020-09-03,WT-012,Gearbox bearing wear,Critical,0.545,2.63,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,50.3,12203.66,Resolved
+LOG-0078,2020-09-05,WT-008,Pitch control failure,Low,0.579,2.73,mm/s,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Neha Singh,70.1,15417.36,Monitoring
+LOG-0143,2020-09-06,WT-004,Pitch control failure,Low,0.531,6.29,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Amit Patel,17.9,16154.32,Resolved
+LOG-0102,2020-09-07,WT-005,Main shaft fatigue crack,Critical,0.986,6.45,mm/s,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Priya Sharma,7.5,5696.59,Resolved
+LOG-0162,2020-09-11,WT-015,Oil contamination,Medium,0.613,9.19,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,22.6,4468.19,Resolved
+LOG-0108,2020-09-15,WT-003,Vibration sensor drift,High,0.69,7.12,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Ravi Kumar,45.3,14841.43,Monitoring
+LOG-0133,2020-09-18,WT-007,Oil contamination,Low,0.681,3.87,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,46.9,10873.46,Resolved
+LOG-0015,2020-09-19,WT-013,Oil contamination,Critical,0.803,5.41,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,68.2,4545.61,Resolved
+LOG-0487,2020-10-03,WT-005,Generator overheating,Critical,0.967,1.85,°C,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Rahul Gupta,71.7,24406.53,Resolved
+LOG-0248,2020-10-06,WT-001,Yaw system misalignment,Medium,0.747,5.2,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,58.9,24113.81,Monitoring
+LOG-0263,2020-10-07,WT-006,Yaw system misalignment,Critical,0.996,1.74,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Amit Patel,55.9,18952.37,Resolved
+LOG-0265,2020-10-13,WT-002,Hydraulic system pressure drop,Low,0.657,9.46,°C,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Ravi Kumar,42.9,9908.78,Resolved
+LOG-0096,2020-10-15,WT-008,Rotor blade imbalance,Medium,0.984,9.61,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Ravi Kumar,62.1,18243.31,Resolved
+LOG-0304,2020-10-15,WT-002,Vibration sensor drift,High,0.584,9.64,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,53.9,6330.9,Resolved
+LOG-0009,2020-10-19,WT-007,Cooling fan failure,High,0.874,5.51,RPM,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Neha Singh,10.9,18752.23,Monitoring
+LOG-0337,2020-10-20,WT-010,Main shaft fatigue crack,High,0.666,1.25,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,62.2,4918.74,Resolved
+LOG-0144,2020-10-21,WT-010,Oil contamination,High,0.708,2.74,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,31.5,15562.83,Resolved
+LOG-0088,2020-10-25,WT-006,Yaw system misalignment,Medium,0.585,7.87,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,38.7,14365.24,Monitoring
+LOG-0182,2020-10-26,WT-014,Main shaft fatigue crack,High,0.962,1.23,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,4.0,23905.19,Monitoring
+LOG-0042,2020-10-28,WT-013,Hydraulic system pressure drop,Low,0.884,6.18,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,4.3,24606.43,Monitoring
+LOG-0473,2020-10-30,WT-005,Main shaft fatigue crack,Medium,0.774,7.43,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,24.9,12158.44,Resolved
+LOG-0429,2020-11-02,WT-004,Main shaft fatigue crack,Critical,0.998,5.15,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Priya Sharma,58.2,4826.88,Monitoring
+LOG-0129,2020-11-04,WT-008,Vibration sensor drift,Low,0.991,8.29,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,33.0,20368.69,Resolved
+LOG-0489,2020-11-07,WT-008,Pitch control failure,Medium,0.806,7.59,bar,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Amit Patel,8.6,5026.29,Resolved
+LOG-0271,2020-11-08,WT-009,Oil contamination,High,0.987,9.06,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Rahul Gupta,6.9,2436.03,Resolved
+LOG-0472,2020-11-09,WT-009,Yaw system misalignment,Low,0.876,9.53,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Priya Sharma,48.8,24935.5,Resolved
+LOG-0437,2020-11-14,WT-005,Rotor blade imbalance,Low,0.624,3.38,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,47.5,22194.05,Monitoring
+LOG-0468,2020-11-15,WT-008,Gearbox bearing wear,Medium,0.628,2.82,bar,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,19.8,22295.82,Resolved
+LOG-0070,2020-11-16,WT-009,Generator overheating,Low,0.516,4.87,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,30.0,17389.59,Resolved
+LOG-0415,2020-11-18,WT-004,Yaw system misalignment,Low,0.698,3.78,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,71.8,19601.99,Resolved
+LOG-0012,2020-11-19,WT-005,Rotor blade imbalance,Critical,0.986,7.19,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Neha Singh,1.2,18191.26,Resolved
+LOG-0374,2020-11-25,WT-005,Oil contamination,High,0.52,9.22,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,1.4,11925.12,Resolved
+LOG-0007,2020-11-30,WT-012,Oil contamination,Critical,0.778,6.45,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,27.9,24743.32,Resolved
+LOG-0306,2020-12-06,WT-012,Cooling fan failure,Critical,0.551,5.58,RPM,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Neha Singh,36.0,9778.46,Resolved
+LOG-0152,2020-12-07,WT-012,Vibration sensor drift,Critical,0.676,8.59,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,26.0,1537.7,Resolved
+LOG-0276,2020-12-07,WT-014,Cooling fan failure,High,0.837,8.82,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,12.2,19446.56,Resolved
+LOG-0041,2020-12-13,WT-009,Hydraulic system pressure drop,Low,0.547,6.26,°C,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,21.1,16764.42,Resolved
+LOG-0438,2020-12-15,WT-003,Generator overheating,Low,0.932,9.01,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Rahul Gupta,3.5,9242.61,Resolved
+LOG-0499,2020-12-15,WT-007,Oil contamination,High,0.934,1.9,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,41.1,16658.49,Resolved
+LOG-0311,2020-12-15,WT-001,Rotor blade imbalance,High,0.892,1.57,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,70.4,12102.48,Monitoring
+LOG-0120,2020-12-25,WT-008,Gearbox bearing wear,Medium,0.917,5.15,bar,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Neha Singh,28.0,17739.95,Resolved
+LOG-0189,2020-12-25,WT-010,Pitch control failure,Critical,0.835,1.31,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Priya Sharma,59.7,13124.38,Resolved
+LOG-0036,2020-12-31,WT-002,Gearbox bearing wear,High,0.893,3.71,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,3.7,15116.0,Resolved
+LOG-0402,2021-01-03,WT-003,Gearbox bearing wear,Critical,0.86,0.67,bar,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,43.6,14308.32,Resolved
+LOG-0428,2021-01-03,WT-005,Main shaft fatigue crack,Medium,0.86,8.07,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,70.5,17307.29,Monitoring
+LOG-0198,2021-01-03,WT-005,Gearbox bearing wear,Medium,0.71,6.51,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Neha Singh,55.4,24469.17,Monitoring
+LOG-0115,2021-01-06,WT-006,Yaw system misalignment,Medium,0.817,1.82,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,41.2,10319.22,Resolved
+LOG-0351,2021-01-09,WT-006,Rotor blade imbalance,Low,0.693,3.03,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,29.5,24076.59,Monitoring
+LOG-0322,2021-01-19,WT-010,Main shaft fatigue crack,Critical,0.88,7.39,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,16.0,20687.25,Resolved
+LOG-0331,2021-01-20,WT-011,Pitch control failure,Medium,0.929,1.03,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Amit Patel,37.7,6387.4,Resolved
+LOG-0267,2021-01-21,WT-010,Oil contamination,Critical,0.977,8.85,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Rahul Gupta,22.0,1836.94,Monitoring
+LOG-0201,2021-01-21,WT-003,Yaw system misalignment,Low,0.968,6.22,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Amit Patel,3.3,16674.84,Resolved
+LOG-0169,2021-01-23,WT-012,Vibration sensor drift,Medium,0.654,5.14,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Amit Patel,36.4,13110.76,Resolved
+LOG-0037,2021-01-24,WT-015,Main shaft fatigue crack,High,0.903,5.34,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Rahul Gupta,4.2,11183.41,Resolved
+LOG-0178,2021-01-25,WT-010,Gearbox bearing wear,Low,0.602,4.34,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Ravi Kumar,32.3,10760.12,Resolved
+LOG-0340,2021-01-25,WT-013,Yaw system misalignment,Low,0.847,2.81,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Rahul Gupta,49.0,15853.83,Resolved
+LOG-0134,2021-01-28,WT-013,Yaw system misalignment,Medium,0.894,3.25,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,72.0,4296.16,Resolved
+LOG-0188,2021-01-29,WT-008,Oil contamination,Low,0.859,6.53,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,24.5,18412.42,Resolved
+LOG-0137,2021-02-01,WT-013,Pitch control failure,High,0.885,4.6,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Neha Singh,49.2,14475.28,Monitoring
+LOG-0125,2021-02-08,WT-003,Rotor blade imbalance,Medium,0.589,6.6,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,43.8,19125.27,Monitoring
+LOG-0243,2021-02-08,WT-012,Gearbox bearing wear,Critical,0.603,7.05,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Rahul Gupta,43.0,10026.48,Resolved
+LOG-0450,2021-02-10,WT-008,Pitch control failure,High,0.556,2.53,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Amit Patel,64.0,21659.61,Resolved
+LOG-0432,2021-02-11,WT-014,Yaw system misalignment,Medium,0.755,3.52,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Rahul Gupta,70.5,7472.91,Resolved
+LOG-0477,2021-02-12,WT-001,Cooling fan failure,High,0.87,1.3,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,12.1,18347.93,Resolved
+LOG-0459,2021-02-17,WT-014,Generator overheating,Low,0.918,5.81,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,35.5,2919.46,Resolved
+LOG-0372,2021-02-19,WT-012,Gearbox bearing wear,Critical,0.824,7.05,°C,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,59.9,22831.42,Resolved
+LOG-0492,2021-02-22,WT-004,Main shaft fatigue crack,Low,0.809,4.59,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Priya Sharma,13.6,23890.13,Monitoring
+LOG-0103,2021-02-24,WT-003,Hydraulic system pressure drop,Low,0.907,5.95,°C,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Rahul Gupta,59.9,14078.09,Resolved
+LOG-0309,2021-02-24,WT-002,Gearbox bearing wear,Medium,0.77,9.11,bar,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,30.1,14075.75,Resolved
+LOG-0252,2021-03-05,WT-013,Rotor blade imbalance,High,0.808,4.48,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,62.1,15451.41,Resolved
+LOG-0305,2021-03-05,WT-001,Cooling fan failure,Medium,0.86,7.82,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Amit Patel,50.2,9086.79,Monitoring
+LOG-0386,2021-03-09,WT-012,Hydraulic system pressure drop,Critical,0.592,1.82,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Amit Patel,65.3,21360.74,Resolved
+LOG-0363,2021-03-17,WT-015,Rotor blade imbalance,Critical,0.879,3.64,mm/s,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Neha Singh,59.5,5169.18,Resolved
+LOG-0203,2021-03-20,WT-004,Cooling fan failure,Low,0.958,2.68,bar,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,10.9,24840.34,Resolved
+LOG-0469,2021-03-21,WT-007,Vibration sensor drift,Low,0.913,2.11,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,52.4,19926.15,Resolved
+LOG-0192,2021-03-28,WT-006,Pitch control failure,Medium,0.994,4.73,bar,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Rahul Gupta,69.0,12215.46,Monitoring
+LOG-0360,2021-04-01,WT-006,Yaw system misalignment,Critical,0.858,6.08,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,24.6,19301.7,Monitoring
+LOG-0328,2021-04-03,WT-010,Generator overheating,High,0.855,7.13,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,44.2,23603.62,Monitoring
+LOG-0206,2021-04-06,WT-008,Oil contamination,High,0.529,4.81,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,61.9,4036.62,Monitoring
+LOG-0440,2021-04-10,WT-008,Yaw system misalignment,Low,0.652,2.92,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Rahul Gupta,32.4,9461.69,Resolved
+LOG-0434,2021-04-12,WT-003,Rotor blade imbalance,High,0.822,2.99,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,23.5,7638.23,Monitoring
+LOG-0017,2021-04-13,WT-002,Gearbox bearing wear,Low,0.619,1.16,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Ravi Kumar,65.3,21561.07,Resolved
+LOG-0411,2021-04-15,WT-014,Generator overheating,Critical,0.754,1.43,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,56.6,23756.51,Resolved
+LOG-0213,2021-04-16,WT-004,Generator overheating,Critical,0.972,5.62,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Amit Patel,41.5,6520.39,Resolved
+LOG-0063,2021-04-17,WT-005,Pitch control failure,Low,0.975,7.41,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Amit Patel,52.2,8230.92,Resolved
+LOG-0299,2021-04-21,WT-002,Gearbox bearing wear,Medium,0.807,3.59,°C,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Ravi Kumar,2.4,12210.73,Resolved
+LOG-0002,2021-04-21,WT-002,Gearbox bearing wear,Low,0.71,7.02,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Priya Sharma,40.8,18042.48,Resolved
+LOG-0396,2021-04-24,WT-005,Rotor blade imbalance,Low,0.694,7.86,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,48.5,13188.19,Resolved
+LOG-0159,2021-04-29,WT-004,Rotor blade imbalance,Critical,0.902,3.93,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,2.9,14073.53,Resolved
+LOG-0246,2021-05-03,WT-006,Generator overheating,High,0.694,1.81,°C,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,9.3,9646.0,Monitoring
+LOG-0170,2021-05-08,WT-009,Main shaft fatigue crack,Medium,0.799,3.12,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,42.4,1692.12,Resolved
+LOG-0123,2021-05-13,WT-014,Main shaft fatigue crack,Critical,0.655,4.18,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,42.8,13337.08,Resolved
+LOG-0001,2021-05-16,WT-001,Rotor blade imbalance,Medium,0.773,7.39,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,10.9,3011.13,Resolved
+LOG-0281,2021-05-17,WT-012,Hydraulic system pressure drop,Medium,0.673,2.67,mm/s,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Rahul Gupta,1.5,10545.88,Resolved
+LOG-0293,2021-05-18,WT-010,Vibration sensor drift,High,0.544,4.95,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,36.4,22128.08,Resolved
+LOG-0494,2021-05-18,WT-008,Cooling fan failure,Critical,0.883,4.1,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Ravi Kumar,70.9,1461.66,Resolved
+LOG-0266,2021-05-23,WT-011,Pitch control failure,High,0.829,8.39,bar,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Ravi Kumar,56.3,17416.66,Resolved
+LOG-0452,2021-05-24,WT-013,Yaw system misalignment,Medium,0.985,3.65,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,36.5,17305.64,Resolved
+LOG-0294,2021-05-25,WT-004,Main shaft fatigue crack,Low,0.772,3.84,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Rahul Gupta,71.2,19656.94,Resolved
+LOG-0289,2021-05-26,WT-009,Cooling fan failure,Low,0.506,1.8,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,33.8,20195.47,Resolved
+LOG-0418,2021-06-11,WT-013,Rotor blade imbalance,High,0.885,5.74,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,50.3,24168.36,Monitoring
+LOG-0334,2021-06-13,WT-008,Rotor blade imbalance,Medium,0.611,6.59,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,68.2,22539.98,Resolved
+LOG-0431,2021-06-16,WT-012,Cooling fan failure,High,0.672,8.03,RPM,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Amit Patel,26.6,14158.54,Resolved
+LOG-0051,2021-06-16,WT-003,Cooling fan failure,Critical,0.94,3.64,bar,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Ravi Kumar,24.2,11640.13,Monitoring
+LOG-0349,2021-06-24,WT-008,Hydraulic system pressure drop,Critical,0.926,8.63,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Amit Patel,4.6,20422.87,Resolved
+LOG-0028,2021-06-25,WT-015,Rotor blade imbalance,Low,0.641,1.95,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,64.2,18689.21,Resolved
+LOG-0071,2021-06-25,WT-002,Cooling fan failure,Medium,0.954,6.52,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,31.2,13841.78,Resolved
+LOG-0022,2021-06-27,WT-001,Main shaft fatigue crack,Critical,0.892,7.29,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,21.3,17566.49,Resolved
+LOG-0422,2021-06-27,WT-004,Hydraulic system pressure drop,Medium,0.678,8.28,mm/s,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,17.3,20956.04,Resolved
+LOG-0081,2021-07-01,WT-006,Main shaft fatigue crack,Low,0.999,5.96,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Rahul Gupta,21.1,7814.62,Resolved
+LOG-0058,2021-07-03,WT-014,Main shaft fatigue crack,High,0.941,1.31,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Rahul Gupta,61.5,20852.91,Monitoring
+LOG-0327,2021-07-05,WT-011,Hydraulic system pressure drop,Critical,0.841,9.49,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,37.4,21683.43,Resolved
+LOG-0183,2021-07-09,WT-004,Hydraulic system pressure drop,High,0.621,5.96,°C,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Rahul Gupta,10.7,15584.09,Resolved
+LOG-0285,2021-07-10,WT-006,Yaw system misalignment,Medium,0.792,7.75,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,6.3,5466.46,Resolved
+LOG-0275,2021-07-11,WT-013,Yaw system misalignment,Low,0.748,6.34,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,19.7,24388.74,Resolved
+LOG-0139,2021-07-12,WT-002,Pitch control failure,Critical,0.973,4.57,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Priya Sharma,65.3,4110.04,Monitoring
+LOG-0338,2021-07-14,WT-001,Gearbox bearing wear,Medium,0.745,7.61,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Neha Singh,55.0,4630.84,Resolved
+LOG-0366,2021-07-14,WT-010,Main shaft fatigue crack,Critical,0.567,4.71,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Priya Sharma,69.4,24277.05,Resolved
+LOG-0163,2021-07-16,WT-004,Pitch control failure,Medium,0.82,1.37,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Rahul Gupta,45.4,15553.49,Resolved
+LOG-0046,2021-07-16,WT-008,Oil contamination,Critical,0.66,3.03,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,6.5,7500.34,Resolved
+LOG-0064,2021-07-20,WT-012,Hydraulic system pressure drop,High,0.68,3.26,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,70.6,20899.39,Resolved
+LOG-0458,2021-08-02,WT-003,Oil contamination,High,0.829,1.4,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Rahul Gupta,30.1,8389.59,Resolved
+LOG-0480,2021-08-04,WT-003,Pitch control failure,Medium,0.827,0.99,mm/s,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Ravi Kumar,57.0,15640.14,Resolved
+LOG-0414,2021-08-08,WT-004,Gearbox bearing wear,Medium,0.616,5.3,°C,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Rahul Gupta,3.4,15188.12,Resolved
+LOG-0185,2021-08-11,WT-008,Cooling fan failure,High,0.826,7.65,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,21.3,1949.48,Resolved
+LOG-0158,2021-08-17,WT-009,Rotor blade imbalance,High,0.819,9.12,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,61.4,17939.32,Resolved
+LOG-0347,2021-08-27,WT-012,Yaw system misalignment,Medium,0.967,2.43,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,3.8,12660.69,Resolved
+LOG-0456,2021-08-28,WT-003,Oil contamination,High,0.753,7.72,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Neha Singh,39.5,11624.94,Resolved
+LOG-0200,2021-09-03,WT-013,Gearbox bearing wear,Critical,0.912,5.45,°C,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Ravi Kumar,48.8,13838.91,Monitoring
+LOG-0230,2021-09-08,WT-003,Generator overheating,High,0.711,4.54,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Amit Patel,36.0,2050.05,Resolved
+LOG-0345,2021-09-08,WT-004,Generator overheating,Critical,0.803,3.01,°C,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,48.0,16730.83,Monitoring
+LOG-0209,2021-09-12,WT-014,Hydraulic system pressure drop,Low,0.873,7.4,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Amit Patel,16.0,5155.58,Resolved
+LOG-0040,2021-09-14,WT-009,Main shaft fatigue crack,High,0.661,6.14,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,15.9,19751.09,Monitoring
+LOG-0495,2021-09-15,WT-008,Pitch control failure,High,0.527,6.2,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Neha Singh,33.8,10850.32,Monitoring
+LOG-0483,2021-09-16,WT-004,Gearbox bearing wear,High,0.842,0.67,bar,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Rahul Gupta,35.8,18737.57,Resolved
+LOG-0282,2021-09-21,WT-013,Gearbox bearing wear,Low,0.981,4.4,°C,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Neha Singh,15.6,24586.34,Resolved
+LOG-0272,2021-09-27,WT-010,Main shaft fatigue crack,Critical,0.543,1.04,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,52.8,21238.47,Resolved
+LOG-0286,2021-10-05,WT-008,Generator overheating,Critical,0.726,7.66,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,9.6,9278.04,Resolved
+LOG-0467,2021-10-06,WT-004,Pitch control failure,Low,0.96,8.15,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Priya Sharma,55.8,23612.02,Resolved
+LOG-0008,2021-10-08,WT-014,Hydraulic system pressure drop,Critical,0.938,9.27,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Ravi Kumar,20.0,5669.08,Resolved
+LOG-0482,2021-10-08,WT-012,Oil contamination,Critical,0.75,2.23,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,62.5,13523.24,Resolved
+LOG-0181,2021-10-11,WT-012,Hydraulic system pressure drop,Critical,0.637,7.9,mm/s,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,25.8,23375.66,Monitoring
+LOG-0445,2021-10-18,WT-008,Vibration sensor drift,Low,0.986,0.71,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,11.8,24258.05,Resolved
+LOG-0244,2021-10-29,WT-003,Oil contamination,Medium,0.764,8.52,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,33.5,6927.66,Monitoring
+LOG-0112,2021-11-06,WT-009,Vibration sensor drift,Low,0.711,9.25,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,30.2,21903.38,Resolved
+LOG-0447,2021-11-07,WT-012,Cooling fan failure,Low,0.888,1.02,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Ravi Kumar,60.9,23815.28,Monitoring
+LOG-0184,2021-11-07,WT-002,Gearbox bearing wear,Critical,0.775,0.55,°C,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Neha Singh,8.1,19383.77,Monitoring
+LOG-0357,2021-11-08,WT-006,Cooling fan failure,High,0.702,6.48,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,4.6,5956.31,Resolved
+LOG-0381,2021-11-10,WT-001,Generator overheating,Low,0.779,7.89,°C,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,7.2,1829.57,Resolved
+LOG-0075,2021-11-13,WT-006,Cooling fan failure,High,0.847,3.57,bar,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Neha Singh,48.6,21514.46,Monitoring
+LOG-0059,2021-11-19,WT-010,Vibration sensor drift,Low,0.677,5.03,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,36.1,8462.85,Resolved
+LOG-0164,2021-11-22,WT-012,Vibration sensor drift,Low,0.821,0.92,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,59.6,1195.15,Resolved
+LOG-0308,2021-11-23,WT-009,Rotor blade imbalance,Critical,0.804,6.58,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Ravi Kumar,51.0,11067.42,Resolved
+LOG-0147,2021-11-24,WT-006,Gearbox bearing wear,Medium,0.739,9.62,°C,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Rahul Gupta,60.0,17274.72,Resolved
+LOG-0173,2021-11-25,WT-007,Rotor blade imbalance,High,0.75,5.23,mm/s,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,54.6,5376.92,Resolved
+LOG-0240,2021-12-03,WT-006,Generator overheating,Critical,0.549,3.74,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Amit Patel,56.7,13267.31,Resolved
+LOG-0161,2021-12-06,WT-011,Cooling fan failure,Medium,0.591,6.45,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,63.3,19616.44,Monitoring
+LOG-0205,2021-12-06,WT-008,Oil contamination,Critical,0.575,4.37,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,56.8,8308.99,Resolved
+LOG-0082,2021-12-07,WT-009,Cooling fan failure,High,0.661,4.73,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Neha Singh,40.2,13814.04,Resolved
+LOG-0146,2021-12-07,WT-013,Yaw system misalignment,Medium,0.868,7.67,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,53.0,15892.3,Resolved
+LOG-0455,2021-12-13,WT-003,Vibration sensor drift,High,0.957,8.23,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,53.0,7245.45,Resolved
+LOG-0132,2021-12-17,WT-010,Rotor blade imbalance,High,0.798,4.15,mm/s,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,69.7,17612.76,Resolved
+LOG-0127,2021-12-21,WT-010,Pitch control failure,Low,0.916,1.03,mm/s,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Ravi Kumar,23.0,11571.89,Resolved
+LOG-0297,2021-12-27,WT-014,Vibration sensor drift,Medium,0.849,8.0,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,13.5,15016.73,Resolved
+LOG-0288,2021-12-29,WT-012,Rotor blade imbalance,Critical,0.995,2.92,mm/s,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,37.5,17090.99,Monitoring
+LOG-0105,2022-01-03,WT-003,Gearbox bearing wear,Medium,0.563,2.97,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Ravi Kumar,42.8,886.64,Resolved
+LOG-0454,2022-01-03,WT-001,Hydraulic system pressure drop,Medium,0.78,7.07,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,18.8,1467.47,Resolved
+LOG-0353,2022-01-04,WT-010,Generator overheating,Low,0.946,7.26,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,62.2,22058.78,Monitoring
+LOG-0342,2022-01-05,WT-006,Generator overheating,Medium,0.51,8.05,°C,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,12.7,22718.91,Resolved
+LOG-0005,2022-01-10,WT-005,Oil contamination,Medium,0.645,2.62,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Rahul Gupta,51.0,1622.7,Resolved
+LOG-0154,2022-01-11,WT-004,Rotor blade imbalance,Critical,0.725,1.93,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,68.4,1293.44,Resolved
+LOG-0106,2022-01-11,WT-008,Rotor blade imbalance,Low,0.864,6.22,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Neha Singh,33.1,5927.97,Monitoring
+LOG-0172,2022-01-12,WT-009,Vibration sensor drift,High,0.64,7.61,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,6.2,12854.26,Resolved
+LOG-0014,2022-01-13,WT-001,Cooling fan failure,High,0.539,5.78,RPM,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Ravi Kumar,18.0,6401.35,Resolved
+LOG-0153,2022-01-14,WT-002,Gearbox bearing wear,Medium,0.891,6.15,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Neha Singh,68.6,3998.1,Resolved
+LOG-0095,2022-01-19,WT-013,Generator overheating,High,0.741,8.17,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Rahul Gupta,60.0,6795.77,Resolved
+LOG-0280,2022-01-25,WT-008,Oil contamination,Medium,0.621,7.38,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,21.7,19720.43,Monitoring
+LOG-0062,2022-01-25,WT-005,Hydraulic system pressure drop,Critical,0.775,9.77,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Rahul Gupta,40.3,8922.06,Monitoring
+LOG-0031,2022-01-26,WT-009,Generator overheating,Medium,0.967,3.89,mm/s,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,31.5,1524.81,Resolved
+LOG-0406,2022-01-28,WT-009,Main shaft fatigue crack,Low,0.741,9.23,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,50.5,11009.43,Resolved
+LOG-0335,2022-01-31,WT-013,Main shaft fatigue crack,High,0.527,1.6,mm/s,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,42.6,11862.14,Monitoring
+LOG-0290,2022-02-01,WT-014,Hydraulic system pressure drop,Low,0.511,8.06,mm/s,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,42.3,6841.11,Resolved
+LOG-0216,2022-02-03,WT-009,Hydraulic system pressure drop,Low,0.742,6.23,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,44.9,16835.49,Resolved
+LOG-0135,2022-02-10,WT-003,Vibration sensor drift,Medium,0.905,7.67,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,12.5,20867.95,Monitoring
+LOG-0470,2022-02-20,WT-012,Gearbox bearing wear,Low,0.94,3.61,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Rahul Gupta,56.4,23085.85,Monitoring
+LOG-0448,2022-02-20,WT-004,Generator overheating,Low,0.886,2.82,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Amit Patel,9.7,19319.57,Resolved
+LOG-0034,2022-02-22,WT-013,Generator overheating,Low,0.73,8.09,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,62.0,5949.63,Resolved
+LOG-0128,2022-02-26,WT-010,Vibration sensor drift,Critical,0.521,7.37,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,42.2,23878.67,Resolved
+LOG-0378,2022-03-01,WT-007,Yaw system misalignment,High,0.911,8.98,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,39.4,7429.31,Monitoring
+LOG-0156,2022-03-03,WT-008,Generator overheating,Low,0.998,4.65,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Rahul Gupta,19.6,6877.1,Monitoring
+LOG-0312,2022-03-04,WT-002,Pitch control failure,Medium,0.522,2.24,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Rahul Gupta,27.3,9845.41,Monitoring
+LOG-0229,2022-03-05,WT-005,Gearbox bearing wear,Low,0.621,9.73,°C,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Neha Singh,52.5,14208.65,Monitoring
+LOG-0207,2022-03-06,WT-009,Oil contamination,Medium,0.725,1.24,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,19.1,8591.44,Resolved
+LOG-0295,2022-03-06,WT-009,Vibration sensor drift,High,0.948,2.54,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Amit Patel,13.8,8312.5,Resolved
+LOG-0048,2022-03-08,WT-014,Hydraulic system pressure drop,Low,0.503,4.04,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,61.8,19257.07,Resolved
+LOG-0310,2022-03-15,WT-002,Hydraulic system pressure drop,Critical,0.647,4.48,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Ravi Kumar,11.9,9340.31,Resolved
+LOG-0234,2022-03-15,WT-007,Yaw system misalignment,High,0.773,6.01,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Amit Patel,9.1,14314.34,Monitoring
+LOG-0210,2022-03-23,WT-012,Vibration sensor drift,Medium,0.767,4.04,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,40.2,19500.09,Resolved
+LOG-0317,2022-03-24,WT-007,Rotor blade imbalance,High,0.506,9.03,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,61.8,13232.36,Resolved
+LOG-0466,2022-03-24,WT-008,Yaw system misalignment,Low,0.759,6.04,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,52.6,24582.43,Resolved
+LOG-0035,2022-03-27,WT-001,Hydraulic system pressure drop,High,0.676,7.69,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,20.8,2200.81,Resolved
+LOG-0167,2022-03-27,WT-012,Yaw system misalignment,Medium,0.621,1.49,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Amit Patel,55.0,13117.01,Resolved
+LOG-0413,2022-03-31,WT-001,Vibration sensor drift,High,0.91,9.3,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,51.5,15138.08,Monitoring
+LOG-0107,2022-04-02,WT-001,Gearbox bearing wear,Critical,0.537,8.96,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Neha Singh,49.7,12511.59,Resolved
+LOG-0339,2022-04-06,WT-007,Vibration sensor drift,Critical,0.6,0.85,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,69.5,9891.25,Resolved
+LOG-0376,2022-04-06,WT-009,Main shaft fatigue crack,Low,0.666,6.67,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Rahul Gupta,25.8,22143.22,Resolved
+LOG-0417,2022-04-07,WT-004,Vibration sensor drift,Low,0.536,1.49,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,19.5,10474.8,Resolved
+LOG-0228,2022-04-15,WT-009,Oil contamination,Low,0.799,1.37,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Rahul Gupta,2.9,9170.9,Monitoring
+LOG-0083,2022-04-21,WT-007,Vibration sensor drift,Low,0.691,8.99,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,23.6,12087.92,Monitoring
+LOG-0217,2022-04-22,WT-009,Gearbox bearing wear,Low,0.643,5.48,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Rahul Gupta,2.2,18193.72,Resolved
+LOG-0465,2022-04-24,WT-006,Oil contamination,Critical,0.773,2.74,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,59.7,8424.55,Resolved
+LOG-0033,2022-04-24,WT-013,Generator overheating,Low,0.706,7.78,°C,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Priya Sharma,13.7,23149.94,Resolved
+LOG-0444,2022-04-25,WT-013,Oil contamination,Medium,0.818,3.19,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,61.6,4968.98,Resolved
+LOG-0110,2022-04-27,WT-015,Cooling fan failure,High,0.656,7.29,bar,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,59.7,10268.89,Resolved
+LOG-0140,2022-04-29,WT-015,Yaw system misalignment,Low,0.541,4.09,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,29.1,9662.06,Resolved
+LOG-0463,2022-04-30,WT-012,Oil contamination,Low,0.851,6.77,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Rahul Gupta,55.4,14625.81,Resolved
+LOG-0461,2022-05-01,WT-006,Gearbox bearing wear,High,0.765,6.24,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Rahul Gupta,57.4,1928.35,Resolved
+LOG-0278,2022-05-02,WT-006,Hydraulic system pressure drop,High,0.751,3.97,mm/s,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,20.3,2408.23,Resolved
+LOG-0176,2022-05-03,WT-006,Yaw system misalignment,High,0.513,6.9,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,57.6,18270.44,Resolved
+LOG-0100,2022-05-08,WT-011,Yaw system misalignment,Medium,0.808,8.25,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Rahul Gupta,63.9,16545.59,Resolved
+LOG-0116,2022-05-09,WT-004,Oil contamination,Critical,0.888,7.21,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Neha Singh,25.2,9566.3,Resolved
+LOG-0020,2022-05-14,WT-008,Oil contamination,Medium,0.722,9.09,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,20.8,6620.26,Resolved
+LOG-0443,2022-05-14,WT-005,Hydraulic system pressure drop,Medium,0.847,6.2,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Ravi Kumar,37.7,20099.0,Resolved
+LOG-0236,2022-05-16,WT-011,Pitch control failure,Critical,0.7,4.96,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Priya Sharma,6.3,24772.17,Resolved
+LOG-0409,2022-05-22,WT-002,Yaw system misalignment,High,0.806,5.75,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Priya Sharma,19.6,13634.57,Resolved
+LOG-0486,2022-05-23,WT-010,Hydraulic system pressure drop,High,0.603,5.54,°C,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,65.6,8567.48,Resolved
+LOG-0045,2022-05-23,WT-010,Cooling fan failure,Critical,0.63,4.91,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,64.7,18719.56,Resolved
+LOG-0114,2022-05-28,WT-010,Pitch control failure,Low,0.514,6.95,bar,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Priya Sharma,44.2,16616.87,Resolved
+LOG-0475,2022-05-30,WT-002,Hydraulic system pressure drop,High,0.707,1.55,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Amit Patel,49.6,14612.45,Resolved
+LOG-0118,2022-05-30,WT-002,Oil contamination,Low,0.834,5.03,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,21.1,17122.91,Resolved
+LOG-0171,2022-06-01,WT-001,Oil contamination,Medium,0.683,7.6,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,63.7,18323.95,Resolved
+LOG-0121,2022-06-12,WT-014,Main shaft fatigue crack,Low,0.715,3.41,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,33.6,2407.63,Monitoring
+LOG-0016,2022-06-16,WT-007,Pitch control failure,Critical,0.794,3.64,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Amit Patel,9.6,6005.08,Resolved
+LOG-0130,2022-06-18,WT-004,Gearbox bearing wear,Medium,0.887,4.1,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Neha Singh,26.8,22989.45,Resolved
+LOG-0150,2022-06-19,WT-007,Yaw system misalignment,Critical,0.684,6.94,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,25.1,5077.02,Resolved
+LOG-0232,2022-06-20,WT-007,Vibration sensor drift,High,0.797,6.55,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Amit Patel,31.6,20676.61,Resolved
+LOG-0354,2022-06-21,WT-015,Rotor blade imbalance,Low,0.934,0.61,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Neha Singh,5.5,16546.85,Resolved
+LOG-0259,2022-06-22,WT-015,Rotor blade imbalance,Critical,0.844,2.38,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,1.0,23971.78,Resolved
+LOG-0090,2022-06-23,WT-003,Oil contamination,High,0.845,9.45,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,71.1,7829.28,Resolved
+LOG-0101,2022-06-29,WT-004,Yaw system misalignment,Medium,0.772,6.88,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,61.7,2934.19,Resolved
+LOG-0500,2022-07-02,WT-005,Main shaft fatigue crack,High,0.601,1.72,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,45.5,3380.07,Resolved
+LOG-0358,2022-07-06,WT-008,Cooling fan failure,Low,0.749,1.6,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,61.8,11453.17,Resolved
+LOG-0126,2022-07-08,WT-013,Vibration sensor drift,High,0.534,1.9,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,62.4,15866.83,Resolved
+LOG-0225,2022-07-11,WT-011,Gearbox bearing wear,Critical,0.593,3.99,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,17.2,14049.42,Resolved
+LOG-0006,2022-07-17,WT-007,Rotor blade imbalance,High,0.851,6.73,mm/s,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,12.5,9204.13,Resolved
+LOG-0404,2022-07-17,WT-012,Generator overheating,Low,0.601,1.51,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Amit Patel,17.3,9943.82,Resolved
+LOG-0497,2022-07-18,WT-001,Cooling fan failure,Medium,0.824,3.51,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,63.7,2709.4,Resolved
+LOG-0080,2022-07-24,WT-008,Cooling fan failure,Medium,0.94,5.23,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,28.2,23085.77,Resolved
+LOG-0196,2022-07-24,WT-009,Generator overheating,Low,0.511,3.37,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,40.7,16982.81,Resolved
+LOG-0329,2022-07-29,WT-014,Main shaft fatigue crack,High,0.812,5.34,mm/s,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,16.5,7902.55,Resolved
+LOG-0214,2022-08-01,WT-012,Cooling fan failure,Medium,0.773,1.8,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Neha Singh,53.0,9128.32,Resolved
+LOG-0079,2022-08-03,WT-004,Rotor blade imbalance,Low,0.646,9.17,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Ravi Kumar,47.0,4272.29,Monitoring
+LOG-0433,2022-08-07,WT-010,Main shaft fatigue crack,Medium,0.711,9.14,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,62.6,16194.23,Resolved
+LOG-0044,2022-08-09,WT-003,Hydraulic system pressure drop,Low,0.567,1.63,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Rahul Gupta,40.6,22978.02,Resolved
+LOG-0011,2022-08-16,WT-007,Main shaft fatigue crack,High,0.86,0.61,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Rahul Gupta,69.9,21589.1,Resolved
+LOG-0066,2022-08-19,WT-010,Gearbox bearing wear,Critical,0.971,0.98,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,32.3,5016.91,Resolved
+LOG-0052,2022-08-21,WT-014,Pitch control failure,Low,0.612,9.35,mm/s,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Ravi Kumar,54.2,1776.1,Resolved
+LOG-0074,2022-08-21,WT-001,Vibration sensor drift,Critical,0.817,5.94,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,66.0,4946.48,Resolved
+LOG-0403,2022-08-23,WT-008,Hydraulic system pressure drop,Critical,0.897,6.09,°C,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Rahul Gupta,13.1,20843.91,Resolved
+LOG-0174,2022-08-28,WT-012,Generator overheating,Critical,0.966,1.8,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Amit Patel,11.6,22381.73,Resolved
+LOG-0384,2022-08-28,WT-014,Main shaft fatigue crack,Medium,0.899,4.14,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,38.9,3841.35,Resolved
+LOG-0405,2022-09-01,WT-002,Vibration sensor drift,Low,0.547,7.5,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,63.3,13520.03,Resolved
+LOG-0421,2022-09-02,WT-015,Oil contamination,High,0.974,3.0,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,26.1,22410.75,Monitoring
+LOG-0425,2022-09-06,WT-013,Oil contamination,Low,0.587,6.88,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Neha Singh,36.7,10146.06,Monitoring
+LOG-0160,2022-09-07,WT-005,Rotor blade imbalance,Critical,0.986,1.19,mm/s,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Neha Singh,55.6,20671.82,Monitoring
+LOG-0233,2022-09-08,WT-012,Vibration sensor drift,High,0.867,3.47,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,13.6,10256.87,Resolved
+LOG-0410,2022-09-15,WT-009,Main shaft fatigue crack,Medium,0.653,2.86,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Rahul Gupta,27.3,14095.33,Monitoring
+LOG-0391,2022-09-24,WT-006,Cooling fan failure,Low,0.929,8.33,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Amit Patel,13.5,15362.38,Resolved
+LOG-0375,2022-10-01,WT-014,Vibration sensor drift,High,0.978,5.39,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Amit Patel,6.2,17838.2,Resolved
+LOG-0424,2022-10-02,WT-014,Vibration sensor drift,Medium,0.611,3.11,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Amit Patel,70.9,22942.17,Resolved
+LOG-0491,2022-10-03,WT-014,Generator overheating,Critical,0.882,0.8,mm/s,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,10.8,5234.87,Resolved
+LOG-0362,2022-10-05,WT-015,Gearbox bearing wear,Medium,0.627,4.31,°C,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Priya Sharma,59.4,18691.52,Resolved
+LOG-0043,2022-10-09,WT-004,Vibration sensor drift,Critical,0.875,0.55,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,18.3,16573.42,Monitoring
+LOG-0211,2022-10-15,WT-006,Pitch control failure,Critical,0.92,4.87,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Rahul Gupta,8.0,24542.3,Resolved
+LOG-0089,2022-10-16,WT-011,Vibration sensor drift,Medium,0.833,4.77,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,17.5,16128.66,Resolved
+LOG-0341,2022-10-27,WT-002,Generator overheating,High,0.645,3.27,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,12.9,20684.17,Monitoring
+LOG-0364,2022-10-29,WT-008,Cooling fan failure,Medium,0.777,7.35,RPM,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Rahul Gupta,69.4,606.27,Monitoring
+LOG-0029,2022-11-01,WT-011,Hydraulic system pressure drop,Critical,0.817,0.97,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Amit Patel,18.8,22749.9,Resolved
+LOG-0145,2022-11-05,WT-009,Rotor blade imbalance,Low,0.991,6.41,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Rahul Gupta,28.7,12018.31,Resolved
+LOG-0010,2022-11-09,WT-004,Yaw system misalignment,Critical,0.814,1.52,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Priya Sharma,7.5,1654.35,Resolved
+LOG-0398,2022-11-24,WT-011,Vibration sensor drift,High,0.676,5.3,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Ravi Kumar,27.7,22727.44,Monitoring
+LOG-0077,2022-11-27,WT-001,Main shaft fatigue crack,High,0.526,4.61,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Priya Sharma,45.2,12713.08,Resolved
+LOG-0283,2022-11-30,WT-001,Rotor blade imbalance,Critical,0.542,9.56,mm/s,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,50.8,9626.05,Resolved
+LOG-0435,2022-12-02,WT-012,Yaw system misalignment,Critical,0.864,0.71,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Rahul Gupta,30.4,5005.21,Resolved
+LOG-0314,2022-12-06,WT-001,Oil contamination,Critical,0.786,9.21,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Neha Singh,69.6,17333.16,Monitoring
+LOG-0369,2022-12-06,WT-013,Main shaft fatigue crack,Low,0.6,6.73,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,2.8,4060.5,Resolved
+LOG-0274,2022-12-07,WT-008,Generator overheating,High,0.634,7.76,mm/s,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Amit Patel,12.9,3609.8,Resolved
+LOG-0218,2022-12-09,WT-015,Rotor blade imbalance,Medium,0.677,2.85,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Ravi Kumar,18.1,15684.63,Resolved
+LOG-0221,2022-12-17,WT-014,Vibration sensor drift,Low,0.783,6.94,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Ravi Kumar,17.3,22581.19,Resolved
+LOG-0253,2022-12-26,WT-010,Gearbox bearing wear,High,0.646,9.6,bar,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,43.4,4625.25,Resolved
+LOG-0257,2022-12-30,WT-014,Yaw system misalignment,Critical,0.634,2.47,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,16.5,11026.26,Resolved
+LOG-0441,2022-12-31,WT-005,Yaw system misalignment,Low,0.65,7.53,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,49.8,12552.33,Resolved
+LOG-0420,2023-01-02,WT-006,Main shaft fatigue crack,Low,0.699,3.17,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Rahul Gupta,50.8,6952.07,Resolved
+LOG-0097,2023-01-03,WT-001,Main shaft fatigue crack,Low,0.792,6.75,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,33.3,16984.3,Resolved
+LOG-0193,2023-01-05,WT-015,Oil contamination,Medium,0.894,6.04,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Neha Singh,55.1,17168.38,Resolved
+LOG-0049,2023-01-07,WT-014,Main shaft fatigue crack,Medium,0.694,5.02,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,35.7,7186.92,Resolved
+LOG-0393,2023-01-10,WT-005,Oil contamination,Critical,0.946,4.15,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Rahul Gupta,47.4,4141.51,Resolved
+LOG-0222,2023-01-17,WT-011,Rotor blade imbalance,Low,0.604,0.65,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,13.7,21335.48,Monitoring
+LOG-0269,2023-01-23,WT-007,Vibration sensor drift,Medium,0.508,7.66,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Amit Patel,55.2,23884.1,Resolved
+LOG-0442,2023-01-27,WT-004,Vibration sensor drift,High,0.625,4.57,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Ravi Kumar,14.4,22112.97,Monitoring
+LOG-0479,2023-01-28,WT-009,Oil contamination,Critical,0.834,6.96,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,45.2,24811.4,Resolved
+LOG-0416,2023-01-30,WT-015,Rotor blade imbalance,High,0.674,5.92,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Ravi Kumar,52.6,14198.29,Resolved
+LOG-0250,2023-01-30,WT-010,Cooling fan failure,Low,0.995,5.55,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Neha Singh,41.7,7063.28,Monitoring
+LOG-0464,2023-01-31,WT-013,Generator overheating,Critical,0.8,5.47,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Priya Sharma,36.8,16609.53,Resolved
+LOG-0220,2023-02-05,WT-007,Main shaft fatigue crack,Critical,0.75,2.09,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,5.0,731.53,Resolved
+LOG-0039,2023-02-09,WT-012,Main shaft fatigue crack,Medium,0.874,4.03,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,14.6,16790.77,Resolved
+LOG-0359,2023-02-15,WT-007,Main shaft fatigue crack,Low,0.819,9.46,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,59.6,19898.69,Monitoring
+LOG-0131,2023-02-16,WT-006,Rotor blade imbalance,Critical,0.953,6.61,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Ravi Kumar,21.2,18231.47,Resolved
+LOG-0242,2023-02-20,WT-003,Oil contamination,Critical,0.592,4.27,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,69.1,6180.46,Monitoring
+LOG-0179,2023-02-22,WT-009,Generator overheating,High,0.978,4.0,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Priya Sharma,71.9,12220.09,Resolved
+LOG-0330,2023-02-23,WT-011,Oil contamination,High,0.994,1.09,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,22.2,3148.56,Resolved
+LOG-0377,2023-02-23,WT-009,Vibration sensor drift,Low,0.821,2.74,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,9.1,8977.18,Resolved
+LOG-0212,2023-02-26,WT-007,Yaw system misalignment,Medium,0.792,5.65,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,53.6,897.39,Resolved
+LOG-0298,2023-02-27,WT-010,Vibration sensor drift,Medium,0.771,9.52,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,60.4,20354.83,Monitoring
+LOG-0223,2023-02-28,WT-005,Rotor blade imbalance,Medium,0.77,6.8,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,41.2,21311.34,Resolved
+LOG-0313,2023-03-01,WT-004,Pitch control failure,Low,0.834,1.4,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Amit Patel,11.7,17563.54,Resolved
+LOG-0219,2023-03-03,WT-007,Yaw system misalignment,Medium,0.924,6.86,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,71.3,6033.5,Resolved
+LOG-0258,2023-03-05,WT-010,Oil contamination,Critical,0.523,7.59,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,57.0,22406.79,Resolved
+LOG-0395,2023-03-05,WT-003,Cooling fan failure,Medium,0.609,3.84,RPM,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,53.3,12345.83,Resolved
+LOG-0318,2023-03-06,WT-003,Main shaft fatigue crack,Low,0.643,1.44,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Priya Sharma,66.7,14285.75,Monitoring
+LOG-0430,2023-03-08,WT-005,Pitch control failure,Low,0.907,1.06,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Rahul Gupta,29.3,17418.31,Resolved
+LOG-0284,2023-03-08,WT-002,Main shaft fatigue crack,Low,0.63,2.7,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Rahul Gupta,31.9,24123.35,Monitoring
+LOG-0319,2023-03-17,WT-007,Pitch control failure,Critical,0.804,1.84,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Neha Singh,3.7,7247.65,Resolved
+LOG-0155,2023-03-21,WT-013,Cooling fan failure,Medium,0.625,6.54,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Ravi Kumar,38.6,10251.83,Resolved
+LOG-0018,2023-03-26,WT-003,Oil contamination,Critical,0.547,4.29,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Rahul Gupta,18.3,12087.84,Resolved
+LOG-0255,2023-03-28,WT-008,Main shaft fatigue crack,High,0.897,1.2,mm/s,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Priya Sharma,45.6,9691.72,Monitoring
+LOG-0296,2023-04-11,WT-009,Cooling fan failure,Medium,0.633,6.61,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Amit Patel,70.2,2953.29,Resolved
+LOG-0451,2023-04-12,WT-003,Gearbox bearing wear,Low,0.791,9.51,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,29.1,6455.69,Resolved
+LOG-0301,2023-04-15,WT-012,Yaw system misalignment,Low,0.866,9.58,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,24.9,8403.78,Monitoring
+LOG-0343,2023-04-22,WT-012,Hydraulic system pressure drop,Medium,0.688,7.87,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Ravi Kumar,9.7,17922.2,Resolved
+LOG-0084,2023-04-23,WT-003,Gearbox bearing wear,High,0.763,4.59,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Rahul Gupta,62.7,21917.66,Resolved
+LOG-0175,2023-04-30,WT-010,Main shaft fatigue crack,High,0.781,5.06,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,37.0,12988.0,Resolved
+LOG-0476,2023-05-01,WT-006,Hydraulic system pressure drop,Low,0.911,3.75,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Amit Patel,55.6,4646.75,Resolved
+LOG-0202,2023-05-01,WT-002,Hydraulic system pressure drop,Low,0.622,8.61,mm/s,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Ravi Kumar,32.7,16964.58,Monitoring
+LOG-0237,2023-05-01,WT-012,Yaw system misalignment,Low,0.583,6.68,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Rahul Gupta,8.8,6581.66,Monitoring
+LOG-0072,2023-05-03,WT-003,Gearbox bearing wear,High,0.701,3.33,bar,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,32.2,11983.1,Monitoring
+LOG-0151,2023-05-18,WT-002,Main shaft fatigue crack,Medium,0.83,1.24,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,39.7,8369.68,Monitoring
+LOG-0187,2023-05-19,WT-005,Gearbox bearing wear,Low,0.821,4.73,RPM,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Rahul Gupta,66.9,8708.53,Resolved
+LOG-0004,2023-05-21,WT-006,Rotor blade imbalance,High,0.987,5.49,RPM,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Amit Patel,58.3,18378.43,Resolved
+LOG-0138,2023-05-23,WT-014,Generator overheating,Medium,0.686,4.97,mm/s,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Priya Sharma,63.0,1778.41,Resolved
+LOG-0460,2023-05-25,WT-006,Gearbox bearing wear,Low,0.964,6.6,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Priya Sharma,1.9,23065.36,Monitoring
+LOG-0068,2023-05-26,WT-013,Oil contamination,Medium,0.649,8.95,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Neha Singh,56.1,9819.26,Resolved
+LOG-0054,2023-05-28,WT-003,Yaw system misalignment,Low,0.789,3.39,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Rahul Gupta,56.2,4512.26,Monitoring
+LOG-0013,2023-06-01,WT-014,Pitch control failure,Medium,0.889,5.52,mm/s,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Rahul Gupta,11.9,19181.51,Resolved
+LOG-0069,2023-06-02,WT-010,Vibration sensor drift,Low,0.83,2.46,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Ravi Kumar,68.3,5590.8,Resolved
+LOG-0264,2023-06-03,WT-010,Oil contamination,Medium,0.576,6.34,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,32.2,18199.58,Monitoring
+LOG-0180,2023-06-03,WT-006,Oil contamination,Critical,0.612,5.69,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,14.7,6539.72,Resolved
+LOG-0427,2023-06-09,WT-005,Hydraulic system pressure drop,High,0.85,2.46,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Neha Singh,27.0,12719.87,Resolved
+LOG-0423,2023-06-11,WT-011,Rotor blade imbalance,Low,0.741,0.89,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Neha Singh,55.3,13766.11,Monitoring
+LOG-0098,2023-06-22,WT-008,Hydraulic system pressure drop,High,0.912,1.09,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Ravi Kumar,66.0,5923.5,Monitoring
+LOG-0457,2023-06-24,WT-014,Vibration sensor drift,Medium,0.91,9.49,°C,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Amit Patel,23.8,2051.87,Monitoring
+LOG-0093,2023-06-25,WT-011,Hydraulic system pressure drop,High,0.919,6.63,mm/s,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,49.1,18162.75,Resolved
+LOG-0050,2023-06-28,WT-015,Cooling fan failure,Low,0.542,6.67,RPM,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Priya Sharma,65.4,15001.37,Resolved
+LOG-0038,2023-06-30,WT-002,Main shaft fatigue crack,High,0.754,8.87,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,48.1,3553.32,Resolved
+LOG-0231,2023-07-04,WT-005,Yaw system misalignment,Critical,0.652,1.49,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Priya Sharma,43.2,5290.93,Resolved
+LOG-0086,2023-07-07,WT-007,Oil contamination,Critical,0.816,1.14,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,62.9,1379.53,Resolved
+LOG-0382,2023-07-14,WT-007,Main shaft fatigue crack,Critical,0.767,6.76,mm/s,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,31.7,913.83,Resolved
+LOG-0087,2023-07-21,WT-007,Rotor blade imbalance,Low,0.523,8.9,mm/s,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Ravi Kumar,32.5,17503.03,Resolved
+LOG-0498,2023-07-22,WT-002,Rotor blade imbalance,High,0.988,7.26,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Neha Singh,7.1,17828.34,Monitoring
+LOG-0247,2023-07-25,WT-003,Main shaft fatigue crack,Medium,0.657,1.8,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,40.4,12496.23,Resolved
+LOG-0030,2023-07-28,WT-006,Gearbox bearing wear,High,0.78,7.06,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Priya Sharma,12.5,11324.97,Resolved
+LOG-0268,2023-07-30,WT-004,Rotor blade imbalance,Low,0.967,9.68,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Neha Singh,38.5,24453.58,Monitoring
+LOG-0165,2023-08-01,WT-007,Vibration sensor drift,Low,0.978,3.19,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Rahul Gupta,36.4,15865.52,Resolved
+LOG-0141,2023-08-24,WT-015,Yaw system misalignment,High,0.915,3.17,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Ravi Kumar,57.2,3871.19,Monitoring
+LOG-0379,2023-08-27,WT-001,Cooling fan failure,Medium,0.986,1.39,mm/s,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Amit Patel,23.7,2517.46,Resolved
+LOG-0471,2023-08-29,WT-014,Rotor blade imbalance,Low,0.762,1.0,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,46.0,15988.74,Resolved
+LOG-0344,2023-08-31,WT-001,Vibration sensor drift,Low,0.562,4.63,bar,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Ravi Kumar,4.4,3336.85,Monitoring
+LOG-0332,2023-09-04,WT-012,Generator overheating,Critical,0.694,4.39,mm/s,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,71.8,6855.94,Resolved
+LOG-0485,2023-09-07,WT-006,Generator overheating,Medium,0.806,9.43,°C,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,7.2,9864.07,Monitoring
+LOG-0025,2023-09-08,WT-002,Vibration sensor drift,High,0.619,7.16,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Neha Singh,67.4,5504.35,Resolved
+LOG-0204,2023-09-14,WT-005,Hydraulic system pressure drop,Medium,0.796,5.68,°C,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,30.4,7241.27,Monitoring
+LOG-0056,2023-09-16,WT-009,Yaw system misalignment,High,0.71,0.62,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,5.9,16364.81,Resolved
+LOG-0481,2023-09-19,WT-011,Main shaft fatigue crack,High,0.825,8.57,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,62.4,967.42,Monitoring
+LOG-0032,2023-09-27,WT-011,Hydraulic system pressure drop,Low,0.987,8.63,°C,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,26.1,14217.15,Resolved
+LOG-0215,2023-09-30,WT-001,Oil contamination,Low,0.616,8.34,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,55.3,10603.61,Resolved
+LOG-0388,2023-10-06,WT-006,Yaw system misalignment,Medium,0.659,8.87,RPM,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Priya Sharma,8.1,15678.14,Resolved
+LOG-0136,2023-10-17,WT-007,Gearbox bearing wear,Medium,0.892,7.5,°C,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Amit Patel,69.8,15459.59,Resolved
+LOG-0239,2023-10-23,WT-007,Yaw system misalignment,Medium,0.708,1.47,mm/s,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Neha Singh,25.5,1101.78,Resolved
+LOG-0195,2023-10-25,WT-008,Oil contamination,Medium,0.723,8.86,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,51.9,12476.29,Monitoring
+LOG-0336,2023-10-26,WT-009,Hydraulic system pressure drop,Critical,0.575,8.6,°C,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Ravi Kumar,38.6,10621.13,Resolved
+LOG-0325,2023-10-27,WT-007,Oil contamination,Low,0.98,4.65,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Ravi Kumar,18.2,12475.28,Resolved
+LOG-0199,2023-10-30,WT-007,Main shaft fatigue crack,Medium,0.769,2.16,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Ravi Kumar,47.4,9020.36,Resolved
+LOG-0373,2023-10-30,WT-008,Pitch control failure,Low,0.689,5.28,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Priya Sharma,14.3,4757.98,Resolved
+LOG-0292,2023-10-31,WT-001,Cooling fan failure,Critical,0.64,2.24,°C,Replaced cooling fan motor. Airflow restored to rated 850 CFM.,Neha Singh,13.3,5760.54,Resolved
+LOG-0380,2023-11-04,WT-011,Hydraulic system pressure drop,Critical,0.939,8.21,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,60.3,5536.7,Resolved
+LOG-0092,2023-11-05,WT-001,Pitch control failure,Low,0.951,8.25,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Rahul Gupta,65.7,18756.72,Resolved
+LOG-0287,2023-11-06,WT-002,Rotor blade imbalance,High,0.918,0.88,bar,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Priya Sharma,59.7,17573.51,Resolved
+LOG-0333,2023-11-06,WT-012,Yaw system misalignment,Critical,0.923,5.22,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Priya Sharma,65.4,16960.78,Resolved
+LOG-0490,2023-11-08,WT-004,Vibration sensor drift,Low,0.751,4.93,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,26.5,17359.46,Resolved
+LOG-0326,2023-11-11,WT-003,Yaw system misalignment,Low,0.786,2.02,°C,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Amit Patel,21.2,9970.86,Resolved
+LOG-0370,2023-11-15,WT-003,Pitch control failure,High,0.726,3.84,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Ravi Kumar,15.5,13758.72,Monitoring
+LOG-0061,2023-11-15,WT-013,Oil contamination,Critical,0.547,7.87,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,46.9,12525.12,Monitoring
+LOG-0320,2023-11-15,WT-015,Main shaft fatigue crack,Medium,0.686,3.0,bar,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Amit Patel,4.5,12142.85,Resolved
+LOG-0365,2023-11-17,WT-013,Oil contamination,Medium,0.8,4.1,bar,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,52.9,3645.35,Monitoring
+LOG-0235,2023-11-19,WT-008,Hydraulic system pressure drop,Low,0.75,4.31,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Amit Patel,59.1,19993.59,Resolved
+LOG-0371,2023-11-20,WT-009,Hydraulic system pressure drop,Low,0.988,9.4,bar,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Amit Patel,66.8,9995.09,Resolved
+LOG-0389,2023-11-21,WT-011,Vibration sensor drift,Medium,0.714,3.44,mm/s,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Amit Patel,41.2,9430.09,Resolved
+LOG-0478,2023-11-21,WT-001,Pitch control failure,Low,0.87,3.59,°C,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Amit Patel,22.7,12044.16,Resolved
+LOG-0302,2023-11-21,WT-003,Yaw system misalignment,High,0.653,2.13,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Rahul Gupta,16.8,14929.28,Resolved
+LOG-0047,2023-11-22,WT-004,Generator overheating,Medium,0.771,4.29,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Neha Singh,51.2,2073.61,Resolved
+LOG-0256,2023-11-23,WT-012,Oil contamination,High,0.934,5.91,mm/s,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,33.3,12457.09,Monitoring
+LOG-0352,2023-11-26,WT-002,Generator overheating,Low,0.956,1.46,RPM,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Priya Sharma,70.7,21186.57,Monitoring
+LOG-0321,2023-11-26,WT-005,Pitch control failure,Low,0.872,3.29,bar,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Neha Singh,70.0,6084.96,Resolved
+LOG-0439,2023-11-29,WT-008,Oil contamination,Medium,0.939,7.46,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Priya Sharma,42.9,11685.31,Resolved
+LOG-0474,2023-11-30,WT-009,Main shaft fatigue crack,Medium,0.698,2.34,°C,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,55.1,12282.6,Resolved
+LOG-0003,2023-11-30,WT-013,Gearbox bearing wear,Critical,0.668,9.4,mm/s,Replaced bearing assembly. Torqued to 280 Nm. Test run 2 hours normal.,Priya Sharma,25.2,4309.25,Monitoring
+LOG-0453,2023-12-07,WT-011,Yaw system misalignment,Low,0.894,9.63,bar,Realigned yaw motor encoder. Yaw error <1° across all wind directions.,Priya Sharma,9.9,6200.53,Monitoring
+LOG-0060,2023-12-07,WT-015,Pitch control failure,High,0.621,2.28,RPM,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Rahul Gupta,40.5,13157.37,Monitoring
+LOG-0303,2023-12-08,WT-012,Generator overheating,Critical,0.591,5.78,bar,"Cleaned cooling fins, replaced thermal paste. Temperature normal after 30 min.",Ravi Kumar,61.4,19385.34,Resolved
+LOG-0261,2023-12-12,WT-007,Hydraulic system pressure drop,Low,0.613,1.73,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Ravi Kumar,1.1,12181.76,Resolved
+LOG-0057,2023-12-19,WT-006,Main shaft fatigue crack,Medium,0.635,9.48,RPM,Welded fatigue crack with ER70S-6 rod. NDT confirmed structural integrity.,Neha Singh,31.9,18477.98,Monitoring
+LOG-0408,2023-12-23,WT-004,Pitch control failure,Low,0.827,0.57,bar,Recalibrated pitch actuator. Pitch angle error reduced to ±0.2°.,Ravi Kumar,42.0,3386.8,Monitoring
+LOG-0368,2023-12-25,WT-009,Oil contamination,Low,0.971,5.92,RPM,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,55.0,14275.87,Resolved
+LOG-0241,2023-12-26,WT-005,Rotor blade imbalance,Low,0.9,1.52,°C,Balanced rotor blades. Vibration reduced from 8.2 to 1.1 mm/s.,Ravi Kumar,2.6,8905.41,Resolved
+LOG-0367,2023-12-28,WT-014,Oil contamination,Medium,0.673,3.2,°C,Drained and replaced ISO VG 320 gear oil. Particle count within spec.,Amit Patel,15.3,15792.11,Resolved
+LOG-0390,2023-12-29,WT-013,Hydraulic system pressure drop,Critical,0.666,6.82,RPM,Replaced hydraulic seals and refilled fluid to 210 bar. System stable.,Priya Sharma,20.6,9307.41,Monitoring
+LOG-0226,2023-12-31,WT-005,Vibration sensor drift,Low,0.817,7.12,RPM,Replaced MEMS vibration sensor. Calibrated against reference accelerometer.,Priya Sharma,6.8,4278.41,Resolved

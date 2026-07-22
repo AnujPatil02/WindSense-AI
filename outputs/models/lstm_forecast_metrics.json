@@ -1,0 +1,5 @@
+{
+  "model": "LSTM_Forecast",
+  "mape": 123409792000.0,
+  "rmse": 294.014
+}

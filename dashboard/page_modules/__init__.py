@@ -1,0 +1,1 @@
+# WindSense-AI — dashboard/pages
