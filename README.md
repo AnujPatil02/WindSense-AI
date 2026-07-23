@@ -39,16 +39,17 @@ Built for a simulated **5-turbine, 2MW-each (10MW total) onshore wind farm**, it
 
 ## 🏗️ Architecture
 
-Layer 1 IoT Simulation + Digital Twin → Physics ODE model, MQTT + InfluxDB streaming
-Layer 2 Agent 1 — Health Monitor → LSTM Autoencoder vs Isolation Forest (F1-compared)
-Layer 3 Agent 2 — Failure Predictor → XGBoost vs LSTM RUL + 90% conformal prediction
-Layer 4 Agent 3 — Maintenance Coordinator→ Rule-based + PPO RL scheduling, crew dispatch
-Layer 5 Agent 4 — Energy Forecaster → Prophet + LSTM, 72h fleet-wide power forecast
-Layer 6 Causal RCA Engine → DoWhy causal inference for root-cause analysis
-Layer 7 Explainability (XAI) → SHAP feature importance per model
-Layer 8 RAG + LLM Assistant → FAISS + Ollama TinyLlama, fleet-data-grounded chat
-Layer 9 Unified Dashboard + 3D Twin → Streamlit (10 pages) + Grafana + React Three Fiber
-
+```
+Layer 1  IoT Simulation + Digital Twin  → Physics ODE model, MQTT + InfluxDB streaming
+Layer 2  Agent 1 — Health Monitor       → LSTM Autoencoder vs Isolation Forest (F1-compared)
+Layer 3  Agent 2 — Failure Predictor    → XGBoost vs LSTM RUL + 90% conformal prediction
+Layer 4  Agent 3 — Maintenance Coordinator → Rule-based + PPO RL scheduling, crew dispatch
+Layer 5  Agent 4 — Energy Forecaster    → Prophet + LSTM, 72h fleet-wide power forecast
+Layer 6  Causal RCA Engine              → DoWhy causal inference for root-cause analysis
+Layer 7  Explainability (XAI)           → SHAP feature importance per model
+Layer 8  RAG + LLM Assistant            → FAISS + Ollama TinyLlama, fleet-data-grounded chat
+Layer 9  Unified Dashboard + 3D Twin    → Streamlit (10 pages) + Grafana + React Three Fiber
+```
 
 Every agent reads fleet state from a single source of truth (`dashboard/utils/data_loader.py`), eliminating inconsistent priority/action values across pages.
 
@@ -102,28 +103,29 @@ Every agent reads fleet state from a single source of truth (`dashboard/utils/da
 
 ## 📁 Project Structure
 
+```
 WindSense-AI/
-├── iot/ # Digital twin physics + MQTT + InfluxDB
+├── iot/                          # Digital twin physics + MQTT + InfluxDB
 ├── agents/
-│ ├── agent1_health_monitor/ # Anomaly detection (LSTM AE vs Isolation Forest)
-│ ├── agent2_failure_predictor/ # RUL estimation (XGBoost vs LSTM)
-│ ├── agent3_maintenance_coordinator/ # Scheduling + PPO RL
-│ └── agent4_energy_forecaster/ # Prophet + LSTM forecasting
-├── graph/ # LangGraph orchestrator
-├── rag/ # FAISS RAG pipeline
-├── llm/ # Ollama LLM engine + causal RCA
-├── mlops/ # MLflow + Evidently
+│   ├── agent1_health_monitor/       # Anomaly detection (LSTM AE vs Isolation Forest)
+│   ├── agent2_failure_predictor/    # RUL estimation (XGBoost vs LSTM)
+│   ├── agent3_maintenance_coordinator/ # Scheduling + PPO RL
+│   └── agent4_energy_forecaster/    # Prophet + LSTM forecasting
+├── graph/                        # LangGraph orchestrator
+├── rag/                          # FAISS RAG pipeline
+├── llm/                          # Ollama LLM engine + causal RCA
+├── mlops/                        # MLflow + Evidently
 ├── dashboard/
-│ ├── page_modules/ # 10 dashboard pages
-│ ├── ui/ theme, sidebar, topbar, components, animations
-│ └── utils/ data_loader.py — single source of truth
-├── digital-twin/ # 3D React Three Fiber visualization
-├── data/ # Datasets + synthetic docs
-├── notebooks/ # Jupyter exploration
-├── tests/ # Integration tests
-├── outputs/ # Models + reports + work orders
-└── start_windsense.py # One-command auto-launcher
-
+│   ├── page_modules/                # 10 dashboard pages
+│   ├── ui/                          theme, sidebar, topbar, components, animations
+│   └── utils/                       data_loader.py — single source of truth
+├── digital-twin/                 # 3D React Three Fiber visualization
+├── data/                         # Datasets + synthetic docs
+├── notebooks/                    # Jupyter exploration
+├── tests/                        # Integration tests
+├── outputs/                      # Models + reports + work orders
+└── start_windsense.py           # One-command auto-launcher
+```
 
 ---
 
@@ -235,14 +237,6 @@ streamlit run dashboard/streamlit_app.py   # Terminal 3
 ## 🎯 Skills Demonstrated
 
 Time-series anomaly detection (LSTM Autoencoder) · Unsupervised anomaly detection (Isolation Forest) · Gradient-boosted regression (XGBoost) · Conformal prediction / uncertainty quantification · Multi-agent orchestration (LangGraph) · Reinforcement learning (PPO) · Explainable AI (SHAP) · Causal inference (DoWhy) · Retrieval-augmented generation (FAISS + local LLM) · IoT simulation & physics-informed digital twins · 3D visualization (React Three Fiber) · MLOps (MLflow, Evidently) · Full-stack dashboard engineering (Streamlit)
-
----
-
-## 💼 Target Roles
-
-ML Engineer — Predictive Maintenance · IoT/Industrial AI Engineer · Renewable Energy Data Scientist · Reliability & Asset Management Analyst
-
-**Relevant employers:** Suzlon Energy, Adani Green Energy, ReNew Power, Siemens India, ABB India, GE Vernova India, Siemens Energy, Vestas, Enercon, Nordex, Fraunhofer IWES
 
 ---
 
