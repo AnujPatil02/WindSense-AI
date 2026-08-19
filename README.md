@@ -57,11 +57,23 @@ Every agent reads fleet state from a single source of truth (`dashboard/utils/da
 
 ## 🖥️ Dashboard Preview
 
-| Fleet Command Center | Agent Decision Log | 3D Digital Twin |
-|---|---|---|
-| ![home](assets/screenshots/home.png) | ![decisions](assets/screenshots/agent_decisions.png) | ![twin](assets/screenshots/digital_twin.png) |
+### Fleet Command Center
+![Fleet Command Center](assets/screenshots/home.png)
 
-*(add screenshots to `assets/screenshots/` and update paths above)*
+### 3D Digital Twin — Immersive Fleet Visualization
+![3D Digital Twin](assets/screenshots/digital_twin.png)
+
+### Asset Health Monitor — Sensor Heatmap
+![Asset Health Monitor](assets/screenshots/health_monitor.png)
+
+### Remaining Useful Life Monitor — Conformal AI Gauges
+![RUL Monitor](assets/screenshots/rul_monitor.png)
+
+### Energy Generation Forecast — 72-Hour Fleet Prediction
+![Energy Forecast](assets/screenshots/energy_forecast.png)
+
+### Causal Root Cause Analysis — DoWhy + LLM
+![Causal RCA](assets/screenshots/causal_rca.png)
 
 ---
 
