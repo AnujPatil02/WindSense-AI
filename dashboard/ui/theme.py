@@ -110,11 +110,34 @@ div[class*="stMarkdown"] h1 {{
     max-width:1600px;
 }}
 
-/* HIDE STREAMLIT CHROME */
-header[data-testid="stHeader"],
+/* HIDE STREAMLIT CHROME (keep header shell alive so sidebar toggle survives) */
+header[data-testid="stHeader"] {{
+    background: transparent !important;
+    box-shadow: none !important;
+    height: 2.5rem !important;
+}}
 [data-testid="stToolbar"],
 [data-testid="stDecoration"],
-#MainMenu, footer {{ display:none !important; visibility:hidden; }}
+#MainMenu, footer {{ display:none !important; }}
+
+/* Keep sidebar expand/collapse arrow visible and clickable (new Streamlit versions nest it inside stHeader) */
+[data-testid="stSidebarCollapsedControl"] {{
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 999999 !important;
+}}
+[data-testid="collapsedControl"] {{
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 999999 !important;
+}}
+section[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] {{
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}}
 
 /* PAGE ENTRANCE */
 @keyframes wsPageIn {{
@@ -132,6 +155,30 @@ section[data-testid="stSidebar"] {{
     background: linear-gradient(180deg, #04060F 0%, #080E1C 50%, #0B1120 100%);
     border-right: 1px solid {COLORS['border']};
     box-shadow: 4px 0 32px rgba(0,0,0,0.5);
+}}
+
+/* PERMANENT SIDEBAR — always visible regardless of aria-expanded state.
+   Streamlit's collapse/reopen toggle is unreliable in this version, so we
+   force the sidebar's real width at all times and hide both toggle buttons
+   so there's no dead control left on screen. */
+section[data-testid="stSidebar"],
+section[data-testid="stSidebar"][aria-expanded="false"] {{
+    width: 300px !important;
+    min-width: 300px !important;
+    max-width: 300px !important;
+    transform: none !important;
+    visibility: visible !important;
+    margin-left: 0 !important;
+}}
+/* Hide the collapse arrow inside the sidebar itself */
+section[data-testid="stSidebar"] [data-testid="stBaseButton-headerNoPadding"] {{
+    display: none !important;
+}}
+/* Hide the reopen arrow that appears in the header when collapsed */
+header[data-testid="stHeader"] [data-testid="stBaseButton-headerNoPadding"],
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="collapsedControl"] {{
+    display: none !important;
 }}
 section[data-testid="stSidebar"] * {{ color:{COLORS['text_primary']}; }}
 
@@ -511,7 +558,11 @@ section[data-testid="stSidebar"] div[data-testid="stVerticalBlock"] > div[data-t
     padding-bottom: 0 !important;
 }}
 section[data-testid="stSidebar"] div[data-testid="stVerticalBlockSeparator"] {{
-    display: none !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
 }}
 section[data-testid="stSidebar"] .stButton > button:focus-visible {{
     outline: none !important;

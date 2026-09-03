@@ -205,7 +205,7 @@ def render_home(df_kpi=None):
             </div>
             """, unsafe_allow_html=True)
 
-             # ── 3D Digital Twin (toggle button → opens inline below) ──
+                # ── 3D Digital Twin (toggle button → opens inline below) ──
     st.markdown("<div style='height:24px;'></div>", unsafe_allow_html=True)
     st.markdown(section_header("🌍 3D Operations View",
                 "Immersive digital twin — full fleet visualization"), unsafe_allow_html=True)
@@ -213,9 +213,11 @@ def render_home(df_kpi=None):
     if "show_3d_twin" not in st.session_state:
         st.session_state.show_3d_twin = False
 
-    btn_label = "▼ Close 3D View" if st.session_state.show_3d_twin else "▶ Open 3D Digital Twin"
-    if st.button(btn_label, key="toggle_3d_twin", use_container_width=False):
+    def _toggle_3d_twin():
         st.session_state.show_3d_twin = not st.session_state.show_3d_twin
+
+    btn_label = "▼ Close 3D View" if st.session_state.show_3d_twin else "▶ Open 3D Digital Twin"
+    st.button(btn_label, key="toggle_3d_twin", use_container_width=False, on_click=_toggle_3d_twin)
 
     if st.session_state.show_3d_twin:
         render_digital_twin(height=850)

@@ -78,7 +78,8 @@ def render_sidebar():
                 'background:linear-gradient(135deg,#00D4FF,#8B5CF6);'
                 '-webkit-background-clip:text;-webkit-text-fill-color:transparent;">'
                 'WindSense-AI</div>'
-                '<div style="font-size:9px;color:' + COLORS["text_muted"] + ';'
+                '<div style="font-size:9px;color:' + COLORS["text_muted"] + ';">'
+                'NEOGRID COMMAND</div>'
                 '</div>',
                 unsafe_allow_html=True
             )

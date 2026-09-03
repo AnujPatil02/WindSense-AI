@@ -1,3 +1,5 @@
+dir /S /B D:\Anuj\WindSense-Ai | findstr /V ".venv" | findstr /V "__pycache__" > structure.txt
+
 <div align="center">
 
 # WindSense-AI

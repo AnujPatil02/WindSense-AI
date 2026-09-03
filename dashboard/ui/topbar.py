@@ -78,11 +78,11 @@ def render_topbar(page_title: str = "Fleet Command Center", df_kpi=None, latency
     now_ist = datetime.now(IST).strftime("%d %b %Y · %H:%M:%S IST")
 
     topbar_html = (
-        '<div style="position:sticky;top:0;z-index:999;'
+        '<div style="position:relative;top:auto;z-index:1;'
         'background:linear-gradient(180deg,rgba(5,8,22,0.99),rgba(11,17,32,0.97));'
         'border-bottom:1px solid ' + COLORS["border"] + ';'
         'backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);'
-        'padding:14px 28px;margin:0 -1.5rem 1.6rem;'
+        'padding:14px 28px;margin:0 0 1.6rem 0;border-radius:12px;'
         'display:flex;align-items:center;justify-content:space-between;'
         'box-shadow:0 6px 40px rgba(0,0,0,0.5);'
         'min-height:80px;box-sizing:border-box;">'
@@ -125,7 +125,7 @@ def render_topbar(page_title: str = "Fleet Command Center", df_kpi=None, latency
         + chips_html +
         '</div>'
 
-        '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;">'
+        '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;margin-left:24px;">'
         '<span id="ws-ist-clock" style="font-size:13px;font-weight:700;'
         'color:' + COLORS["text_secondary"] + ';'
         "font-family:'JetBrains Mono',monospace;white-space:nowrap;\">"
