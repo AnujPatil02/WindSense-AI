@@ -1,5 +1,3 @@
-dir /S /B D:\Anuj\WindSense-Ai | findstr /V ".venv" | findstr /V "__pycache__" > structure.txt
-
 <div align="center">
 
 # WindSense-AI
@@ -16,8 +14,6 @@ dir /S /B D:\Anuj\WindSense-Ai | findstr /V ".venv" | findstr /V "__pycache__" >
 ![MLflow](https://img.shields.io/badge/MLflow-Experiment%20Tracking-0194E2)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
-[**Live Demo**](#) · [**Dashboard Screenshots**](#-dashboard-preview) · [**Architecture**](#-architecture)
 
 </div>
 
