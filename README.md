@@ -1,7 +1,7 @@
 <div align="center">
 
 # WindSense-AI
-### LLM-Powered Multi-Agent Predictive Maintenance System
+### Wind Turbine Predictive Maintenance Platform
 
 *Anomaly Detection • RUL Estimation • Autonomous Scheduling • Energy Forecasting — across a 5-turbine, 10MW onshore wind farm*
 
@@ -258,6 +258,6 @@ MIT License — free to use for learning and portfolio reference.
 
 <div align="center">
 
-**Built by [Anuj Patil](https://github.com/AnujPatil02)** · [LinkedIn](#) · [Portfolio](#)
+**Built by [Anuj Patil](https://github.com/AnujPatil02)** · [LinkedIn](https://www.linkedin.com/in/anuj-patil-094396450/)
 
 </div>
